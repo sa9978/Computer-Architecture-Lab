@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "D:/term 5/CA/lab/1/AZ1/HalfAdder.xst" -ofn "D:/term 5/CA/lab/1/AZ1/HalfAdder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 "HalfAdder.ngc" HalfAdder.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o HalfAdder_map.ncd HalfAdder.ngd HalfAdder.pcf 
+par -w -intstyle ise -ol high -mt off HalfAdder_map.ncd HalfAdder.ncd HalfAdder.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml HalfAdder.twx HalfAdder.ncd -o HalfAdder.twr HalfAdder.pcf 
+xst -intstyle ise -ifn "D:/term 5/CA/lab/1/AZ1/HalfAdder.xst" -ofn "D:/term 5/CA/lab/1/AZ1/HalfAdder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 "HalfAdder.ngc" HalfAdder.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o HalfAdder_map.ncd HalfAdder.ngd HalfAdder.pcf 
+par -w -intstyle ise -ol high -mt off HalfAdder_map.ncd HalfAdder.ncd HalfAdder.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml HalfAdder.twx HalfAdder.ncd -o HalfAdder.twr HalfAdder.pcf 
