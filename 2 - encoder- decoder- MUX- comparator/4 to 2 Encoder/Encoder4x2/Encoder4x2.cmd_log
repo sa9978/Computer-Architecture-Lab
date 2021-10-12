@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "D:/term 5/CA/lab/Computer-Architecture-Lab/2 - encoder- decoder- MUX- comparator/4 to 2 Encoder/Encoder4x2/Encoder4x2.xst" -ofn "D:/term 5/CA/lab/Computer-Architecture-Lab/2 - encoder- decoder- MUX- comparator/4 to 2 Encoder/Encoder4x2/Encoder4x2.syr" 
+xst -intstyle ise -ifn "D:/term 5/CA/lab/Computer-Architecture-Lab/2 - encoder- decoder- MUX- comparator/4 to 2 Encoder/Encoder4x2/Encoder4x2.xst" -ofn "D:/term 5/CA/lab/Computer-Architecture-Lab/2 - encoder- decoder- MUX- comparator/4 to 2 Encoder/Encoder4x2/Encoder4x2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 "Encoder4x2.ngc" Encoder4x2.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Encoder4x2_map.ncd Encoder4x2.ngd Encoder4x2.pcf 
+par -w -intstyle ise -ol high -mt off Encoder4x2_map.ncd Encoder4x2.ncd Encoder4x2.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Encoder4x2.twx Encoder4x2.ncd -o Encoder4x2.twr Encoder4x2.pcf 

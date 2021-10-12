@@ -1,0 +1,4 @@
+vhdl work "or_gate.vhd"
+vhdl work "not_gate.vhd"
+vhdl work "and_gate.vhd"
+vhdl work "Encoder4x2.vhd"

@@ -1,0 +1,3 @@
+vhdl work "not_gate.vhd"
+vhdl work "and.vhd"
+vhdl work "decoder2x4.vhd"

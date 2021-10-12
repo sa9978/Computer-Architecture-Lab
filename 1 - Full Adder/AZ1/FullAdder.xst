@@ -1,6 +1,9 @@
-set -tmpdir "D:/term 5/CA/lab/1/AZ1/xst/projnav.tmp"
-set -xsthdpdir "D:/term 5/CA/lab/1/AZ1/xst"
-run -compileonly yes
+set -tmpdir "xst/projnav.tmp"
+set -xsthdpdir "xst"
+run
+-ifn FullAdder.prj
+-ofn FullAdder
+-ofmt NGC
 -p xc7a100t-3-csg324
 -top FullAdder
 -opt_mode Speed
@@ -47,4 +50,3 @@ run -compileonly yes
 -iob Auto
 -equivalent_register_removal YES
 -slice_utilization_ratio_maxmargin 5
--ifn FullAdder.prj
