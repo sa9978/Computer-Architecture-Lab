@@ -1,0 +1,6 @@
+vhdl work "or_gate.vhd"
+vhdl work "and_gate.vhd"
+vhdl work "or_gate_4.vhd"
+vhdl work "not_gate.vhd"
+vhdl work "and_gate_3.vhd"
+vhdl work "mux_4to1.vhd"

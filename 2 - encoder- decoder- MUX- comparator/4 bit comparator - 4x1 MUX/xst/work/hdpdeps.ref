@@ -1,0 +1,72 @@
+V3 38
+FL C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/2/session02codes/and_gate.vhd 2021/10/13.08:50:53 P.20131013
+EN work/and_gate 1634103130 \
+      FL C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/2/session02codes/and_gate.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/and_gate/gatelevel 1634103131 \
+      FL C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/2/session02codes/and_gate.vhd \
+      EN work/and_gate 1634103130
+FL C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/2/session02codes/and_gate_3.vhd 2021/10/13.00:51:35 P.20131013
+EN work/and_gate_3 1634103134 \
+      FL C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/2/session02codes/and_gate_3.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/and_gate_3/structure 1634103135 \
+      FL C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/2/session02codes/and_gate_3.vhd \
+      EN work/and_gate_3 1634103134 CP and_gate
+FL C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/2/session02codes/and_gate_4.vhd 2021/10/13.00:15:48 P.20131013
+EN work/and_gate_4 1634102569 \
+      FL C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/2/session02codes/and_gate_4.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/and_gate_4/structure 1634102570 \
+      FL C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/2/session02codes/and_gate_4.vhd \
+      EN work/and_gate_4 1634102569 CP and_gate_3 CP and_gate
+FL C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/2/session02codes/and_gate_5.vhd 2021/10/13.00:18:14 P.20131013
+EN work/and_gate_5 1634102575 \
+      FL C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/2/session02codes/and_gate_5.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/and_gate_5/structure 1634102576 \
+      FL C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/2/session02codes/and_gate_5.vhd \
+      EN work/and_gate_5 1634102575 CP and_gate_4 CP and_gate
+FL C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/2/session02codes/comparator_4bit.vhd 2021/10/13.00:55:54 P.20131013
+EN work/comparator_4bit 1634102579 \
+      FL C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/2/session02codes/comparator_4bit.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/comparator_4bit/structure 1634102580 \
+      FL C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/2/session02codes/comparator_4bit.vhd \
+      EN work/comparator_4bit 1634102579 CP xnor_gate CP and_gate_4 CP not_gate \
+      CP and_gate CP and_gate_3 CP and_gate_5 CP or_gate_4
+FL C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/2/session02codes/mux_4to1.vhd 2021/10/13.07:42:32 P.20131013
+EN work/mux_4to1 1634103138 \
+      FL C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/2/session02codes/mux_4to1.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/mux_4to1/structure 1634103139 \
+      FL C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/2/session02codes/mux_4to1.vhd \
+      EN work/mux_4to1 1634103138 CP not_gate CP and_gate_3 CP or_gate_4
+FL C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/2/session02codes/not_gate.vhd 2021/10/13.00:54:26 P.20131013
+EN work/not_gate 1634103132 \
+      FL C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/2/session02codes/not_gate.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/not_gate/gatelevel 1634103133 \
+      FL C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/2/session02codes/not_gate.vhd \
+      EN work/not_gate 1634103132
+FL C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/2/session02codes/or_gate.vhd 2021/10/13.08:52:38 P.20131013
+EN work/or_gate 1634103128 \
+      FL C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/2/session02codes/or_gate.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/or_gate/gatelevel 1634103129 \
+      FL C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/2/session02codes/or_gate.vhd \
+      EN work/or_gate 1634103128
+FL C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/2/session02codes/or_gate_4.vhd 2021/10/13.00:51:35 P.20131013
+EN work/or_gate_4 1634103136 \
+      FL C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/2/session02codes/or_gate_4.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/or_gate_4/structure 1634103137 \
+      FL C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/2/session02codes/or_gate_4.vhd \
+      EN work/or_gate_4 1634103136 CP or_gate
+FL C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/2/session02codes/xnor_gate.vhd 2021/10/13.00:57:45 P.20131013
+EN work/xnor_gate 1634102571 \
+      FL C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/2/session02codes/xnor_gate.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/xnor_gate/gatelevel 1634102572 \
+      FL C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/2/session02codes/xnor_gate.vhd \
+      EN work/xnor_gate 1634102571

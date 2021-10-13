@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="session02codes" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/and_gate_3 - structure C:|Users|LATITUDE|Documents|term5|computerArchitecture|Az.architecture|2|session02codes|and_gate_3.vhd</ClosedNode>
+         <ClosedNode>/and_gate_4 - structure C:|Users|LATITUDE|Documents|term5|computerArchitecture|Az.architecture|2|session02codes|and_gate_4.vhd</ClosedNode>
+         <ClosedNode>/and_gate_5 - structure C:|Users|LATITUDE|Documents|term5|computerArchitecture|Az.architecture|2|session02codes|and_gate_5.vhd</ClosedNode>
+         <ClosedNode>/comparator_4bit - structure C:|Users|LATITUDE|Documents|term5|computerArchitecture|Az.architecture|2|session02codes|comparator_4bit.vhd</ClosedNode>
+         <ClosedNode>/comparator_4bit - structure C:|Users|LATITUDE|Documents|term5|computerArchitecture|Az.architecture|2|session02codes|comparator_4bit.vhd/and_0 - and_gate_4 - structure</ClosedNode>
+         <ClosedNode>/comparator_4bit - structure C:|Users|LATITUDE|Documents|term5|computerArchitecture|Az.architecture|2|session02codes|comparator_4bit.vhd/and_2 - and_gate_3 - structure</ClosedNode>
+         <ClosedNode>/comparator_4bit - structure C:|Users|LATITUDE|Documents|term5|computerArchitecture|Az.architecture|2|session02codes|comparator_4bit.vhd/and_3 - and_gate_4 - structure</ClosedNode>
+         <ClosedNode>/comparator_4bit - structure C:|Users|LATITUDE|Documents|term5|computerArchitecture|Az.architecture|2|session02codes|comparator_4bit.vhd/and_5 - and_gate_5 - structure</ClosedNode>
+         <ClosedNode>/comparator_4bit - structure C:|Users|LATITUDE|Documents|term5|computerArchitecture|Az.architecture|2|session02codes|comparator_4bit.vhd/and_7 - and_gate_3 - structure</ClosedNode>
+         <ClosedNode>/comparator_4bit - structure C:|Users|LATITUDE|Documents|term5|computerArchitecture|Az.architecture|2|session02codes|comparator_4bit.vhd/and_8 - and_gate_4 - structure</ClosedNode>
+         <ClosedNode>/comparator_4bit - structure C:|Users|LATITUDE|Documents|term5|computerArchitecture|Az.architecture|2|session02codes|comparator_4bit.vhd/and_9 - and_gate_5 - structure</ClosedNode>
+         <ClosedNode>/comparator_4bit - structure C:|Users|LATITUDE|Documents|term5|computerArchitecture|Az.architecture|2|session02codes|comparator_4bit.vhd/or_0 - or_gate_4 - structure</ClosedNode>
+         <ClosedNode>/comparator_4bit - structure C:|Users|LATITUDE|Documents|term5|computerArchitecture|Az.architecture|2|session02codes|comparator_4bit.vhd/or_1 - or_gate_4 - structure</ClosedNode>
+         <ClosedNode>/or_gate_4 - structure C:|Users|LATITUDE|Documents|term5|computerArchitecture|Az.architecture|2|session02codes|or_gate_4.vhd</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>mux_4to1 - structure (D:/term 5/CA/lab/Computer-Architecture-Lab/2 - encoder- decoder- MUX- comparator/4 bit comparator - 4x1 MUX/mux_4to1.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000017c000000020000000000000000000000000200000064ffffffff0000008100000003000000020000017c0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>mux_4to1 - structure (D:/term 5/CA/lab/Computer-Architecture-Lab/2 - encoder- decoder- MUX- comparator/4 bit comparator - 4x1 MUX/mux_4to1.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000018c000000010000000100000000000000000000000064ffffffff0000008100000000000000010000018c0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000002e3000000040101000100000000000000000000000064ffffffff000000810000000000000004000000420000000100000000000000240000000100000000000000660000000100000000000002170000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>and_gate.vhd</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000109000000010001000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000213000000010000000100000000000000000000000064ffffffff000000810000000000000001000002130000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/comparator_4bit - structure C:|Users|LATITUDE|Documents|term5|computerArchitecture|Az.architecture|2|session02codes|comparator_4bit.vhd</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Unassigned User Library Modules</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000014e000000020000000000000000000000000200000064ffffffff0000008100000003000000020000014e0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Unassigned User Library Modules</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000018c000000010000000100000000000000000000000064ffffffff0000008100000000000000010000018c0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <SourceProcessView>000000ff0000000000000002000001420000005a01000000050100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+</Project>

@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/2/session02codes/mux_4to1.xst" -ofn "C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/2/session02codes/mux_4to1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 mux_4to1.ngc mux_4to1.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o mux_4to1_map.ncd mux_4to1.ngd mux_4to1.pcf 
+par -w -intstyle ise -ol high -t 1 mux_4to1_map.ncd mux_4to1.ncd mux_4to1.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mux_4to1.twx mux_4to1.ncd -o mux_4to1.twr mux_4to1.pcf 

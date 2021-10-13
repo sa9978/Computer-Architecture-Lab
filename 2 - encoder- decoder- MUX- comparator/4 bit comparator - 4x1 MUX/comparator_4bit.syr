@@ -1,0 +1,401 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Reading design: comparator_4bit.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "comparator_4bit.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "comparator_4bit"
+Output Format                      : NGC
+Target Device                      : xc3s50-5-pq208
+
+---- Source Options
+Top Module Name                    : comparator_4bit
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/2/session02codes/and_gate.vhd" in Library work.
+Architecture gatelevel of Entity and_gate is up to date.
+Compiling vhdl file "C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/2/session02codes/and_gate_3.vhd" in Library work.
+Architecture structure of Entity and_gate_3 is up to date.
+Compiling vhdl file "C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/2/session02codes/or_gate.vhd" in Library work.
+Entity <or_gate> compiled.
+Entity <or_gate> (Architecture <gatelevel>) compiled.
+Compiling vhdl file "C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/2/session02codes/and_gate_4.vhd" in Library work.
+Entity <and_gate_4> compiled.
+Entity <and_gate_4> (Architecture <structure>) compiled.
+Compiling vhdl file "C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/2/session02codes/xnor_gate.vhd" in Library work.
+Entity <xnor_gate> compiled.
+Entity <xnor_gate> (Architecture <gatelevel>) compiled.
+Compiling vhdl file "C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/2/session02codes/not_gate.vhd" in Library work.
+Entity <not_gate> compiled.
+Entity <not_gate> (Architecture <gatelevel>) compiled.
+Compiling vhdl file "C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/2/session02codes/and_gate_5.vhd" in Library work.
+Entity <and_gate_5> compiled.
+Entity <and_gate_5> (Architecture <structure>) compiled.
+Compiling vhdl file "C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/2/session02codes/or_gate_4.vhd" in Library work.
+Entity <or_gate_4> compiled.
+Entity <or_gate_4> (Architecture <structure>) compiled.
+Compiling vhdl file "C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/2/session02codes/comparator_4bit.vhd" in Library work.
+Entity <comparator_4bit> compiled.
+Entity <comparator_4bit> (Architecture <structure>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <comparator_4bit> in library <work> (architecture <structure>).
+
+Analyzing hierarchy for entity <xnor_gate> in library <work> (architecture <gatelevel>).
+
+Analyzing hierarchy for entity <and_gate_4> in library <work> (architecture <structure>).
+
+Analyzing hierarchy for entity <not_gate> in library <work> (architecture <gatelevel>).
+
+Analyzing hierarchy for entity <and_gate> in library <work> (architecture <gatelevel>).
+
+Analyzing hierarchy for entity <and_gate_3> in library <work> (architecture <structure>).
+
+Analyzing hierarchy for entity <and_gate_5> in library <work> (architecture <structure>).
+
+Analyzing hierarchy for entity <or_gate_4> in library <work> (architecture <structure>).
+
+Analyzing hierarchy for entity <and_gate> in library <work> (architecture <gatelevel>).
+
+Analyzing hierarchy for entity <and_gate_4> in library <work> (architecture <structure>).
+
+Analyzing hierarchy for entity <or_gate> in library <work> (architecture <gatelevel>).
+
+Analyzing hierarchy for entity <and_gate_3> in library <work> (architecture <structure>).
+
+Analyzing hierarchy for entity <and_gate> in library <work> (architecture <gatelevel>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <comparator_4bit> in library <work> (Architecture <structure>).
+Entity <comparator_4bit> analyzed. Unit <comparator_4bit> generated.
+
+Analyzing Entity <xnor_gate> in library <work> (Architecture <gatelevel>).
+Entity <xnor_gate> analyzed. Unit <xnor_gate> generated.
+
+Analyzing Entity <and_gate_4> in library <work> (Architecture <structure>).
+Entity <and_gate_4> analyzed. Unit <and_gate_4> generated.
+
+Analyzing Entity <not_gate> in library <work> (Architecture <gatelevel>).
+Entity <not_gate> analyzed. Unit <not_gate> generated.
+
+Analyzing Entity <and_gate> in library <work> (Architecture <gatelevel>).
+Entity <and_gate> analyzed. Unit <and_gate> generated.
+
+Analyzing Entity <and_gate_3> in library <work> (Architecture <structure>).
+Entity <and_gate_3> analyzed. Unit <and_gate_3> generated.
+
+Analyzing Entity <and_gate_5> in library <work> (Architecture <structure>).
+Entity <and_gate_5> analyzed. Unit <and_gate_5> generated.
+
+Analyzing Entity <or_gate_4> in library <work> (Architecture <structure>).
+Entity <or_gate_4> analyzed. Unit <or_gate_4> generated.
+
+Analyzing Entity <or_gate> in library <work> (Architecture <gatelevel>).
+Entity <or_gate> analyzed. Unit <or_gate> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <xnor_gate>.
+    Related source file is "C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/2/session02codes/xnor_gate.vhd".
+    Found 1-bit xor2 for signal <C$xor0000>.
+Unit <xnor_gate> synthesized.
+
+
+Synthesizing Unit <not_gate>.
+    Related source file is "C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/2/session02codes/not_gate.vhd".
+Unit <not_gate> synthesized.
+
+
+Synthesizing Unit <and_gate>.
+    Related source file is "C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/2/session02codes/and_gate.vhd".
+Unit <and_gate> synthesized.
+
+
+Synthesizing Unit <or_gate>.
+    Related source file is "C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/2/session02codes/or_gate.vhd".
+Unit <or_gate> synthesized.
+
+
+Synthesizing Unit <and_gate_3>.
+    Related source file is "C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/2/session02codes/and_gate_3.vhd".
+Unit <and_gate_3> synthesized.
+
+
+Synthesizing Unit <or_gate_4>.
+    Related source file is "C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/2/session02codes/or_gate_4.vhd".
+Unit <or_gate_4> synthesized.
+
+
+Synthesizing Unit <and_gate_4>.
+    Related source file is "C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/2/session02codes/and_gate_4.vhd".
+Unit <and_gate_4> synthesized.
+
+
+Synthesizing Unit <and_gate_5>.
+    Related source file is "C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/2/session02codes/and_gate_5.vhd".
+Unit <and_gate_5> synthesized.
+
+
+Synthesizing Unit <comparator_4bit>.
+    Related source file is "C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/2/session02codes/comparator_4bit.vhd".
+Unit <comparator_4bit> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Xors                                                 : 4
+ 1-bit xor2                                            : 4
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Xors                                                 : 4
+ 1-bit xor2                                            : 4
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <comparator_4bit> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block comparator_4bit, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : comparator_4bit.ngr
+Top Level Output File Name         : comparator_4bit
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 11
+
+Cell Usage :
+# BELS                             : 11
+#      LUT2                        : 1
+#      LUT4                        : 8
+#      MUXF5                       : 2
+# IO Buffers                       : 11
+#      IBUF                        : 8
+#      OBUF                        : 3
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s50pq208-5 
+
+ Number of Slices:                        5  out of    768     0%  
+ Number of 4 input LUTs:                  9  out of   1536     0%  
+ Number of IOs:                          11
+ Number of bonded IOBs:                  11  out of    124     8%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 9.305ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 32 / 3
+-------------------------------------------------------------------------
+Delay:               9.305ns (Levels of Logic = 4)
+  Source:            A0 (PAD)
+  Destination:       e (PAD)
+
+  Data Path: A0 to e
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   0.715   1.066  A0_IBUF (A0_IBUF)
+     LUT4:I0->O            1   0.479   0.976  and_0/and_1/o26 (and_0/and_1/o26)
+     LUT2:I0->O            1   0.479   0.681  and_0/and_1/o54 (e_OBUF)
+     OBUF:I->O                 4.909          e_OBUF (e)
+    ----------------------------------------
+    Total                      9.305ns (6.582ns logic, 2.723ns route)
+                                       (70.7% logic, 29.3% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 4.42 secs
+ 
+--> 
+
+Total memory usage is 237208 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
