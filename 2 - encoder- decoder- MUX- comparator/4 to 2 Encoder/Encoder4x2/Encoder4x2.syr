@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.11 secs
+Total CPU time to Xst completion: 0.33 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.11 secs
+Total CPU time to Xst completion: 0.33 secs
  
 --> Reading design: Encoder4x2.prj
 
@@ -178,7 +178,6 @@ Found no macro
 =========================================================================
 *                         Low Level Synthesis                           *
 =========================================================================
-WARNING:Xst:1989 - Unit <Encoder4x2>: instances <and_gate_instance1>, <and_gate_instance3> of unit <and_gate> are equivalent, second instance is removed
 
 Optimizing unit <Encoder4x2> ...
 
@@ -284,14 +283,14 @@ Cross Clock Domains Report:
 =========================================================================
 
 
-Total REAL time to Xst completion: 8.00 secs
-Total CPU time to Xst completion: 8.50 secs
+Total REAL time to Xst completion: 40.00 secs
+Total CPU time to Xst completion: 39.58 secs
  
 --> 
 
-Total memory usage is 4676348 kilobytes
+Total memory usage is 4707004 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :    1 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 

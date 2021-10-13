@@ -10,7 +10,7 @@ Target Device  : xc7a100t
 Target Package : csg324
 Target Speed   : -3
 Mapper Version : artix7 -- $Revision: 1.55 $
-Mapped Date    : Wed Oct 13 00:58:03 2021
+Mapped Date    : Wed Oct 13 09:01:36 2021
 
 Design Summary
 --------------
@@ -58,9 +58,9 @@ Specific Feature Utilization:
   Number of STARTUPs:                            0 out of       1    0%
   Number of XADCs:                               0 out of       1    0%
 
-Peak Memory Usage:  4887 MB
-Total REAL time to MAP completion:  18 secs 
-Total CPU time to MAP completion:   17 secs 
+Peak Memory Usage:  4889 MB
+Total REAL time to MAP completion:  14 secs 
+Total CPU time to MAP completion:   14 secs 
 
 Table of Contents
 -----------------

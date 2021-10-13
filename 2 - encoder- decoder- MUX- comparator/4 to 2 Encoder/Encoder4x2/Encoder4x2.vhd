@@ -61,6 +61,7 @@ End component or_gate;
 
 signal NI0 , NI1, NI2, NI3 : std_logic; --not signals
 signal a1 , a2, b1, b2 : std_logic; --and signals
+signal outand : std_logic;
 
 begin
 	not_gate_instance0: not_gate port map (Inot=>I0, Onot=>NI0); --not instances
@@ -69,12 +70,13 @@ begin
 	not_gate_instance3: not_gate port map (Inot=>I3, Onot=>NI3);
 
 	and_gate_instance0: and_gate port map (Iand0=>NI0, Iand1=>NI1, Iand2=>I2, Iand3=>NI3, Oand=>a1); --and instances
-	and_gate_instance1: and_gate port map (Iand0=>NI0, Iand1=>NI1, Iand2=>NI2, Iand3=>I3, Oand=>a2);
+	and_gate_instance1: and_gate port map (Iand0=>NI0, Iand1=>NI1, Iand2=>NI2, Iand3=>I3, Oand=>outand);
 	and_gate_instance2: and_gate port map (Iand0=>NI0, Iand1=>I1, Iand2=>I2, Iand3=>NI3, Oand=>b1);
-	and_gate_instance3: and_gate port map (Iand0=>NI0, Iand1=>NI1, Iand2=>NI2, Iand3=>I3, Oand=>b2);
+	--and_gate_instance3: and_gate port map (Iand0=>NI0, Iand1=>NI1, Iand2=>NI2, Iand3=>I3, Oand=>b2);
+
 	
-	or_gate_instance0: or_gate port map (Ior1=>a1, Ior2=>a2, Oor=>A); --or_instances
-	or_gate_instance1: or_gate port map (Ior1=>b1, Ior2=>b2, Oor=>B);
+	or_gate_instance0: or_gate port map (Ior1=>a1, Ior2=>outand, Oor=>A); --or_instances
+	or_gate_instance1: or_gate port map (Ior1=>b1, Ior2=>outand, Oor=>B);
 
 end structure;
 

@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-SARA::  Wed Oct 13 00:32:06 2021
+SARA::  Wed Oct 13 09:03:12 2021
 
 par -w -intstyle ise -ol high -mt off decoder2x4_map.ncd decoder2x4.ncd
 decoder2x4.pcf 
@@ -104,21 +104,21 @@ Phase  2  : 10 unrouted;      REAL time: 9 secs
 
 Phase  3  : 0 unrouted;      REAL time: 9 secs 
 
-Phase  4  : 0 unrouted; (Par is working to improve performance)     REAL time: 11 secs 
+Phase  4  : 0 unrouted; (Par is working to improve performance)     REAL time: 12 secs 
 
 Updating file: decoder2x4.ncd with current fully routed design.
 
-Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 11 secs 
+Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 12 secs 
 
-Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 11 secs 
+Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 12 secs 
 
-Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 11 secs 
+Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 12 secs 
 
-Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 11 secs 
+Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 12 secs 
 
-Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 11 secs 
-Total REAL time to Router completion: 11 secs 
-Total CPU time to Router completion: 11 secs 
+Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 12 secs 
+Total REAL time to Router completion: 12 secs 
+Total CPU time to Router completion: 12 secs 
 
 Partition Implementation Status
 -------------------------------
@@ -138,9 +138,9 @@ Generating Pad Report.
 All signals are completely routed.
 
 Total REAL time to PAR completion: 12 secs 
-Total CPU time to PAR completion: 11 secs 
+Total CPU time to PAR completion: 12 secs 
 
-Peak Memory Usage:  4795 MB
+Peak Memory Usage:  4789 MB
 
 Placer: Placement generated during map.
 Routing: Completed - No errors found.

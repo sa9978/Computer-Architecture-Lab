@@ -41,6 +41,7 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="Encoder4x2.unroutes" xil_pn:subbranch="Par"/>
     <file xil_pn:fileType="FILE_XPI" xil_pn:name="Encoder4x2.xpi"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Encoder4x2.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Encoder4x2_envsettings.html"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="Encoder4x2_guide.ncd" xil_pn:origination="imported"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Encoder4x2_map.map" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Encoder4x2_map.mrp" xil_pn:subbranch="Map"/>
@@ -51,6 +52,7 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="Encoder4x2_pad.csv" xil_pn:subbranch="Par"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="Encoder4x2_pad.txt" xil_pn:subbranch="Par"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Encoder4x2_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Encoder4x2_summary.html"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="Encoder4x2_summary.xml"/>
     <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="Encoder4x2_usage.xml"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Encoder4x2_xst.xrpt"/>
@@ -71,6 +73,7 @@
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
     <transform xil_pn:end_ts="1634073999" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1634073999">
       <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
     </transform>
     <transform xil_pn:end_ts="1634073999" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-3440271786642706403" xil_pn:start_ts="1634073999">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -96,9 +99,8 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1634074074" xil_pn:in_ck="5887120183397785283" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="-1025827009569423678" xil_pn:start_ts="1634074062">
+    <transform xil_pn:end_ts="1634102806" xil_pn:in_ck="5887120183397785283" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="-1025827009569423678" xil_pn:start_ts="1634102762">
       <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
@@ -118,7 +120,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1634074082" xil_pn:in_ck="1934014209862052580" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-8301991538637717738" xil_pn:start_ts="1634074074">
+    <transform xil_pn:end_ts="1634103095" xil_pn:in_ck="1934014209862052580" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-8301991538637717738" xil_pn:start_ts="1634103089">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="Encoder4x2.bld"/>
@@ -127,7 +129,7 @@
       <outfile xil_pn:name="_ngo"/>
       <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1634074103" xil_pn:in_ck="1934014209862052581" xil_pn:name="TRANEXT_map_virtex7" xil_pn:prop_ck="2100985583056581773" xil_pn:start_ts="1634074082">
+    <transform xil_pn:end_ts="1634103112" xil_pn:in_ck="1934014209862052581" xil_pn:name="TRANEXT_map_virtex7" xil_pn:prop_ck="2100985583056581773" xil_pn:start_ts="1634103095">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
@@ -141,7 +143,7 @@
       <outfile xil_pn:name="Encoder4x2_usage.xml"/>
       <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1634074136" xil_pn:in_ck="-6305372848757382018" xil_pn:name="TRANEXT_par_virtex5" xil_pn:prop_ck="-2283627392121029586" xil_pn:start_ts="1634074103">
+    <transform xil_pn:end_ts="1634103136" xil_pn:in_ck="-6305372848757382018" xil_pn:name="TRANEXT_par_virtex5" xil_pn:prop_ck="-2283627392121029586" xil_pn:start_ts="1634103112">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="Encoder4x2.ncd"/>
@@ -155,7 +157,7 @@
       <outfile xil_pn:name="Encoder4x2_par.xrpt"/>
       <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1634074136" xil_pn:in_ck="1934014209862052449" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1634074122">
+    <transform xil_pn:end_ts="1634103136" xil_pn:in_ck="1934014209862052449" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1634103126">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="Encoder4x2.twr"/>

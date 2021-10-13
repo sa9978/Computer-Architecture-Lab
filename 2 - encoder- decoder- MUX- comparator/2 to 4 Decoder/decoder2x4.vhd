@@ -37,14 +37,14 @@ Port (
 end decoder2x4;
 
 architecture structure of decoder2x4 is
-component and_gate is
+component and_gate is --and component
 Port (
 	in1 , in2: in std_logic;
 	out1: out std_logic
 );
 End component and_gate;
 
-component not_gate is
+component not_gate is --not component
 Port (
 	Nin : in std_logic;
 	Nout : out std_logic
