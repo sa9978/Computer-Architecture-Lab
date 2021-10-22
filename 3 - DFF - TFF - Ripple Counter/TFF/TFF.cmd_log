@@ -1,0 +1,18 @@
+xst -intstyle ise -ifn "C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/3/session03codes/TFF/TFF.xst" -ofn "C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/3/session03codes/TFF/TFF.syr" 
+xst -intstyle ise -ifn "C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/3/session03codes/TFF/TFF.xst" -ofn "C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/3/session03codes/TFF/TFF.syr" 
+xst -intstyle ise -ifn "C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/3/session03codes/TFF/TFF.xst" -ofn "C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/3/session03codes/TFF/TFF.syr" 
+xst -intstyle ise -ifn "C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/3/session03codes/TFF/TFF.xst" -ofn "C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/3/session03codes/TFF/TFF.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 TFF.ngc TFF.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o TFF_map.ncd TFF.ngd TFF.pcf 
+par -w -intstyle ise -ol high -t 1 TFF_map.ncd TFF.ncd TFF.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TFF.twx TFF.ncd -o TFF.twr TFF.pcf 
+xst -intstyle ise -ifn "C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/3/session03codes/TFF/TFF.xst" -ofn "C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/3/session03codes/TFF/TFF.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 TFF.ngc TFF.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o TFF_map.ncd TFF.ngd TFF.pcf 
+par -w -intstyle ise -ol high -t 1 TFF_map.ncd TFF.ncd TFF.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TFF.twx TFF.ncd -o TFF.twr TFF.pcf 
+xst -intstyle ise -ifn "C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/3/session03codes/TFF/TFF.xst" -ofn "C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/3/session03codes/TFF/TFF.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 TFF.ngc TFF.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o TFF_map.ncd TFF.ngd TFF.pcf 
+par -w -intstyle ise -ol high -t 1 TFF_map.ncd TFF.ncd TFF.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TFF.twx TFF.ncd -o TFF.twr TFF.pcf 

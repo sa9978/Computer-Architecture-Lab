@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "D:/term 5/CA/lab/Computer-Architecture-Lab/3 - DFF - TFF - Ripple Counter/RippleCounter/TBRippleCounter_isim_beh.exe" -prj "D:/term 5/CA/lab/Computer-Architecture-Lab/3 - DFF - TFF - Ripple Counter/RippleCounter/TBRippleCounter_beh.prj" "work.TBRippleCounter" 

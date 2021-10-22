@@ -1,0 +1,28 @@
+Command line:
+   TBRippleCounter_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  58514
+
+Fri Oct 22 20:46:20 2021
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 5154.71 Meg
+
+ Total Signals          : 27
+ Total Nets             : 14
+ Total Signal Drivers   : 6
+ Total Blocks           : 7
+ Total Primitive Blocks : 5
+ Total Processes        : 7
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 374
+
+ Total Simulation Time: 0.03125 sec
+
+ Current Memory Usage: 4997.43 Meg
+
+Fri Oct 22 20:48:09 2021
+

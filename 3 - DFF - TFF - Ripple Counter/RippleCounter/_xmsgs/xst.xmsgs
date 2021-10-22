@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"D:\term 5\CA\lab\Computer-Architecture-Lab\3 - DFF - TFF - Ripple Counter\RippleCounter\TBRippleCounter.vhd" Line 50: Using initial value <arg fmt="%s" index="1">&apos;1&apos;</arg> for <arg fmt="%s" index="2">async_reset</arg> since it is never assigned
+</msg>
+
+<msg type="error" file="HDLCompiler" num="890" delta="old" >"D:\term 5\CA\lab\Computer-Architecture-Lab\3 - DFF - TFF - Ripple Counter\RippleCounter\TBRippleCounter.vhd" Line 67: wait statement without UNTIL clause not supported for synthesis
+</msg>
+
+</messages>
+

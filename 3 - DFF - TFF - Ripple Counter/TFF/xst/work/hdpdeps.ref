@@ -1,0 +1,15 @@
+V3 7
+FL C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/3/session03codes/TFF/counter.vhd 2021/10/22.16:25:28 P.20131013
+EN work/counter 0 \
+      FL C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/3/session03codes/TFF/counter.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/counter/structure 0 \
+      FL C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/3/session03codes/TFF/counter.vhd \
+      EN work/counter 0 CP TFF
+FL C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/3/session03codes/TFF/TFF.vhd 2021/10/22.15:36:17 P.20131013
+EN work/TFF 1634908178 \
+      FL C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/3/session03codes/TFF/TFF.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/TFF/Behavioral 1634908179 \
+      FL C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/3/session03codes/TFF/TFF.vhd \
+      EN work/TFF 1634908178

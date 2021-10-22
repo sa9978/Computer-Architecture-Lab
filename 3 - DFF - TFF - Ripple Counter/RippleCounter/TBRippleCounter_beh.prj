@@ -1,0 +1,3 @@
+vhdl work "TFF.vhd"
+vhdl work "RippleCounter.vhd"
+vhdl work "TBRippleCounter.vhd"

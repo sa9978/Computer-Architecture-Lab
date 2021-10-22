@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/3/session03codes/TFF/TBTFF_isim_beh.exe" -prj "C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/3/session03codes/TFF/TBTFF_beh.prj" "work.TBTFF" 

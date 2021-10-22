@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2021-10-22T13:51:16</DateModified>
+  <DateModified>2021-10-22T20:34:26</DateModified>
   <ModuleName>RisingEdge_DFF_AsyncResetLow</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>D:/term 5/CA/lab/Computer-Architecture-Lab/3 - DFF - TFF - Ripple Counter - Sequence Detector/DFF/iseconfig/RisingEdge_DFF_AsyncResetLow.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>D:/term 5/CA/lab/Computer-Architecture-Lab/3 - DFF - TFF - Ripple Counter - Sequence Detector/DFF\</ImplementationReportsDirectory>
+  <SavedFilePath>D:/term 5/CA/lab/Computer-Architecture-Lab/3 - DFF - TFF - Ripple Counter/DFF/iseconfig/RisingEdge_DFF_AsyncResetLow.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>D:/term 5/CA/lab/Computer-Architecture-Lab/3 - DFF - TFF - Ripple Counter/DFF\</ImplementationReportsDirectory>
   <DateInitialized>2021-10-21T12:01:29</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

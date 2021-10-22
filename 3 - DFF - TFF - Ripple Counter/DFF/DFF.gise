@@ -122,6 +122,8 @@
     <transform xil_pn:end_ts="1634898227" xil_pn:in_ck="-372602135736611370" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-5637754665007823886" xil_pn:start_ts="1634898224">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="TBDFF_beh.prj"/>
       <outfile xil_pn:name="TBDFF_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
@@ -129,9 +131,11 @@
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1634898228" xil_pn:in_ck="-2671380593979595851" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-7615458655072668651" xil_pn:start_ts="1634898227">
+    <transform xil_pn:end_ts="1634899223" xil_pn:in_ck="-2671380593979595851" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-7615458655072668651" xil_pn:start_ts="1634899223">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="TBDFF_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
@@ -191,7 +195,7 @@
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="RisingEdge_DFF_AsyncResetLow.bld"/>
+      <status xil_pn:value="OutputRemoved"/>
       <outfile xil_pn:name="RisingEdge_DFF_AsyncResetLow.ngd"/>
       <outfile xil_pn:name="RisingEdge_DFF_AsyncResetLow_ngdbuild.xrpt"/>
       <outfile xil_pn:name="_ngo"/>
@@ -201,6 +205,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="RisingEdge_DFF_AsyncResetLow.pcf"/>
       <outfile xil_pn:name="RisingEdge_DFF_AsyncResetLow_map.map"/>
       <outfile xil_pn:name="RisingEdge_DFF_AsyncResetLow_map.mrp"/>
@@ -214,6 +219,7 @@
     <transform xil_pn:end_ts="1634805224" xil_pn:in_ck="-5370771386808423678" xil_pn:name="TRANEXT_par_virtex5" xil_pn:prop_ck="-2283627392121029586" xil_pn:start_ts="1634805189">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="RisingEdge_DFF_AsyncResetLow.ncd"/>
       <outfile xil_pn:name="RisingEdge_DFF_AsyncResetLow.pad"/>
       <outfile xil_pn:name="RisingEdge_DFF_AsyncResetLow.par"/>
@@ -228,6 +234,7 @@
     <transform xil_pn:end_ts="1634805224" xil_pn:in_ck="-1736369425094586651" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1634805210">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="RisingEdge_DFF_AsyncResetLow.twr"/>
       <outfile xil_pn:name="RisingEdge_DFF_AsyncResetLow.twx"/>
       <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
