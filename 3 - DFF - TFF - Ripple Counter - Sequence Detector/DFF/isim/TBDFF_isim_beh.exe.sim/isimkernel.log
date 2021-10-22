@@ -1,0 +1,5 @@
+Command line:
+   TBDFF_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  53137

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/term 5/CA/lab/Computer-Architecture-Lab/3 - DFF - TFF - Ripple Counter - Sequence Detector/DFF/DFF.xst" -ofn "D:/term 5/CA/lab/Computer-Architecture-Lab/3 - DFF - TFF - Ripple Counter - Sequence Detector/DFF/DFF.syr" 
