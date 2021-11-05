@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "D:/term 5/CA/lab/Computer-Architecture-Lab/5 - adders/CarrySelectAdder/FourBitRippleCarryAdder.xst" -ofn "D:/term 5/CA/lab/Computer-Architecture-Lab/5 - adders/CarrySelectAdder/FourBitRippleCarryAdder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 "FourBitRippleCarryAdder.ngc" FourBitRippleCarryAdder.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o FourBitRippleCarryAdder_map.ncd FourBitRippleCarryAdder.ngd FourBitRippleCarryAdder.pcf 
+par -w -intstyle ise -ol high -mt off FourBitRippleCarryAdder_map.ncd FourBitRippleCarryAdder.ncd FourBitRippleCarryAdder.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FourBitRippleCarryAdder.twx FourBitRippleCarryAdder.ncd -o FourBitRippleCarryAdder.twr FourBitRippleCarryAdder.pcf 
+xst -intstyle ise -ifn "D:/term 5/CA/lab/Computer-Architecture-Lab/5 - adders/CarrySelectAdder/FourBitRippleCarryAdder.xst" -ofn "D:/term 5/CA/lab/Computer-Architecture-Lab/5 - adders/CarrySelectAdder/FourBitRippleCarryAdder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 "FourBitRippleCarryAdder.ngc" FourBitRippleCarryAdder.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o FourBitRippleCarryAdder_map.ncd FourBitRippleCarryAdder.ngd FourBitRippleCarryAdder.pcf 
+par -w -intstyle ise -ol high -mt off FourBitRippleCarryAdder_map.ncd FourBitRippleCarryAdder.ncd FourBitRippleCarryAdder.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FourBitRippleCarryAdder.twx FourBitRippleCarryAdder.ncd -o FourBitRippleCarryAdder.twr FourBitRippleCarryAdder.pcf 

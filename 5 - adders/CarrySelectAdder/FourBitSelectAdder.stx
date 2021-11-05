@@ -1,0 +1,72 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to D:/term 5/CA/lab/Computer-Architecture-Lab/5 - adders/CarrySelectAdder/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Parameter xsthdpdir set to D:/term 5/CA/lab/Computer-Architecture-Lab/5 - adders/CarrySelectAdder/xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Reading design: FourBitSelectAdder.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "D:\term 5\CA\lab\Computer-Architecture-Lab\5 - adders\CarrySelectAdder\FourBitSelectAdder.vhd" into library work
+Parsing entity <FourBitSelectAdder>.
+Parsing architecture <structure> of entity <fourbitselectadder>.
+ERROR:HDLCompiler:806 - "D:\term 5\CA\lab\Computer-Architecture-Lab\5 - adders\CarrySelectAdder\FourBitSelectAdder.vhd" Line 73: Syntax error near "signal".
+ERROR:HDLCompiler:40 - "D:\term 5\CA\lab\Computer-Architecture-Lab\5 - adders\CarrySelectAdder\FourBitSelectAdder.vhd" Line 73: std_logic_vector is not a component
+ERROR:HDLCompiler:402 - "D:\term 5\CA\lab\Computer-Architecture-Lab\5 - adders\CarrySelectAdder\FourBitSelectAdder.vhd" Line 73: Expected an architecture identifier in index
+ERROR:HDLCompiler:56 - "D:\term 5\CA\lab\Computer-Architecture-Lab\5 - adders\CarrySelectAdder\FourBitSelectAdder.vhd" Line 74: <summux1> is not a signal.
+ERROR:HDLCompiler:56 - "D:\term 5\CA\lab\Computer-Architecture-Lab\5 - adders\CarrySelectAdder\FourBitSelectAdder.vhd" Line 75: <summux1> is not a signal.
+ERROR:HDLCompiler:37 - "D:\term 5\CA\lab\Computer-Architecture-Lab\5 - adders\CarrySelectAdder\FourBitSelectAdder.vhd" Line 77: "summux1" cannot be used in this expression.
+ERROR:HDLCompiler:841 - "D:\term 5\CA\lab\Computer-Architecture-Lab\5 - adders\CarrySelectAdder\FourBitSelectAdder.vhd" Line 77: Expecting type std_logic_vector for <summux1>.
+ERROR:HDLCompiler:806 - "D:\term 5\CA\lab\Computer-Architecture-Lab\5 - adders\CarrySelectAdder\FourBitSelectAdder.vhd" Line 82: Syntax error near "signal".
+ERROR:HDLCompiler:40 - "D:\term 5\CA\lab\Computer-Architecture-Lab\5 - adders\CarrySelectAdder\FourBitSelectAdder.vhd" Line 82: std_logic_vector is not a component
+ERROR:HDLCompiler:402 - "D:\term 5\CA\lab\Computer-Architecture-Lab\5 - adders\CarrySelectAdder\FourBitSelectAdder.vhd" Line 82: Expected an architecture identifier in index
+ERROR:HDLCompiler:56 - "D:\term 5\CA\lab\Computer-Architecture-Lab\5 - adders\CarrySelectAdder\FourBitSelectAdder.vhd" Line 83: <summux2> is not a signal.
+ERROR:HDLCompiler:56 - "D:\term 5\CA\lab\Computer-Architecture-Lab\5 - adders\CarrySelectAdder\FourBitSelectAdder.vhd" Line 84: <summux2> is not a signal.
+ERROR:HDLCompiler:37 - "D:\term 5\CA\lab\Computer-Architecture-Lab\5 - adders\CarrySelectAdder\FourBitSelectAdder.vhd" Line 86: "summux2" cannot be used in this expression.
+ERROR:HDLCompiler:841 - "D:\term 5\CA\lab\Computer-Architecture-Lab\5 - adders\CarrySelectAdder\FourBitSelectAdder.vhd" Line 86: Expecting type std_logic_vector for <summux2>.
+ERROR:HDLCompiler:806 - "D:\term 5\CA\lab\Computer-Architecture-Lab\5 - adders\CarrySelectAdder\FourBitSelectAdder.vhd" Line 90: Syntax error near "signal".
+ERROR:HDLCompiler:40 - "D:\term 5\CA\lab\Computer-Architecture-Lab\5 - adders\CarrySelectAdder\FourBitSelectAdder.vhd" Line 90: std_logic_vector is not a component
+ERROR:HDLCompiler:402 - "D:\term 5\CA\lab\Computer-Architecture-Lab\5 - adders\CarrySelectAdder\FourBitSelectAdder.vhd" Line 90: Expected an architecture identifier in index
+ERROR:HDLCompiler:56 - "D:\term 5\CA\lab\Computer-Architecture-Lab\5 - adders\CarrySelectAdder\FourBitSelectAdder.vhd" Line 91: <summux3> is not a signal.
+ERROR:HDLCompiler:56 - "D:\term 5\CA\lab\Computer-Architecture-Lab\5 - adders\CarrySelectAdder\FourBitSelectAdder.vhd" Line 92: <summux3> is not a signal.
+Sorry, too many errors..
+--> 
+
+Total memory usage is 4472104 kilobytes
+
+Number of errors   :   19 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

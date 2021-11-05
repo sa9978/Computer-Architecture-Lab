@@ -107,6 +107,7 @@
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
     <transform xil_pn:end_ts="1636127284" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1636127284">
       <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
     </transform>
     <transform xil_pn:end_ts="1636127924" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="5024731538842633042" xil_pn:start_ts="1636127924">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -169,8 +170,11 @@
     <transform xil_pn:end_ts="1636128311" xil_pn:in_ck="-6290997224786978695" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-6003869657689654869" xil_pn:start_ts="1636128303">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="FullAdder.bld"/>
       <outfile xil_pn:name="FullAdder.ngd"/>
       <outfile xil_pn:name="FullAdder_ngdbuild.xrpt"/>
@@ -181,6 +185,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="FullAdder.pcf"/>
       <outfile xil_pn:name="FullAdder_map.map"/>
@@ -195,6 +200,7 @@
     <transform xil_pn:end_ts="1636128362" xil_pn:in_ck="-6099899347001207661" xil_pn:name="TRANEXT_par_virtex5" xil_pn:prop_ck="-2283627392121029586" xil_pn:start_ts="1636128331">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="FullAdder.ncd"/>
       <outfile xil_pn:name="FullAdder.pad"/>

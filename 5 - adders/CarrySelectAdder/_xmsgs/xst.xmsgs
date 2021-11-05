@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLCompiler" num="806" delta="new" >"D:\term 5\CA\lab\Computer-Architecture-Lab\5 - adders\CarrySelectAdder\FourBitSelectAdder.vhd" Line 73: Syntax error near &quot;<arg fmt="%s" index="1">signal</arg>&quot;.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="40" delta="old" >"D:\term 5\CA\lab\Computer-Architecture-Lab\5 - adders\CarrySelectAdder\FourBitSelectAdder.vhd" Line 73: <arg fmt="%s" index="1">std_logic_vector</arg> is not a <arg fmt="%s" index="2">component</arg>
+</msg>
+
+<msg type="error" file="HDLCompiler" num="402" delta="old" >"D:\term 5\CA\lab\Computer-Architecture-Lab\5 - adders\CarrySelectAdder\FourBitSelectAdder.vhd" Line 73: Expected an architecture identifier in index
+</msg>
+
+<msg type="error" file="HDLCompiler" num="56" delta="old" >"D:\term 5\CA\lab\Computer-Architecture-Lab\5 - adders\CarrySelectAdder\FourBitSelectAdder.vhd" Line 74: &lt;<arg fmt="%s" index="1">summux1</arg>&gt; is not a signal.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="56" delta="old" >"D:\term 5\CA\lab\Computer-Architecture-Lab\5 - adders\CarrySelectAdder\FourBitSelectAdder.vhd" Line 75: &lt;<arg fmt="%s" index="1">summux1</arg>&gt; is not a signal.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="37" delta="old" >"D:\term 5\CA\lab\Computer-Architecture-Lab\5 - adders\CarrySelectAdder\FourBitSelectAdder.vhd" Line 77: &quot;<arg fmt="%s" index="1">summux1</arg>&quot; cannot be used in this expression.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="841" delta="old" >"D:\term 5\CA\lab\Computer-Architecture-Lab\5 - adders\CarrySelectAdder\FourBitSelectAdder.vhd" Line 77: Expecting type <arg fmt="%s" index="2">std_logic_vector</arg> for &lt;<arg fmt="%s" index="1">summux1</arg>&gt;.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="806" delta="new" >"D:\term 5\CA\lab\Computer-Architecture-Lab\5 - adders\CarrySelectAdder\FourBitSelectAdder.vhd" Line 82: Syntax error near &quot;<arg fmt="%s" index="1">signal</arg>&quot;.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="40" delta="old" >"D:\term 5\CA\lab\Computer-Architecture-Lab\5 - adders\CarrySelectAdder\FourBitSelectAdder.vhd" Line 82: <arg fmt="%s" index="1">std_logic_vector</arg> is not a <arg fmt="%s" index="2">component</arg>
+</msg>
+
+<msg type="error" file="HDLCompiler" num="402" delta="old" >"D:\term 5\CA\lab\Computer-Architecture-Lab\5 - adders\CarrySelectAdder\FourBitSelectAdder.vhd" Line 82: Expected an architecture identifier in index
+</msg>
+
+<msg type="error" file="HDLCompiler" num="56" delta="old" >"D:\term 5\CA\lab\Computer-Architecture-Lab\5 - adders\CarrySelectAdder\FourBitSelectAdder.vhd" Line 83: &lt;<arg fmt="%s" index="1">summux2</arg>&gt; is not a signal.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="56" delta="old" >"D:\term 5\CA\lab\Computer-Architecture-Lab\5 - adders\CarrySelectAdder\FourBitSelectAdder.vhd" Line 84: &lt;<arg fmt="%s" index="1">summux2</arg>&gt; is not a signal.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="37" delta="old" >"D:\term 5\CA\lab\Computer-Architecture-Lab\5 - adders\CarrySelectAdder\FourBitSelectAdder.vhd" Line 86: &quot;<arg fmt="%s" index="1">summux2</arg>&quot; cannot be used in this expression.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="841" delta="old" >"D:\term 5\CA\lab\Computer-Architecture-Lab\5 - adders\CarrySelectAdder\FourBitSelectAdder.vhd" Line 86: Expecting type <arg fmt="%s" index="2">std_logic_vector</arg> for &lt;<arg fmt="%s" index="1">summux2</arg>&gt;.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="806" delta="new" >"D:\term 5\CA\lab\Computer-Architecture-Lab\5 - adders\CarrySelectAdder\FourBitSelectAdder.vhd" Line 90: Syntax error near &quot;<arg fmt="%s" index="1">signal</arg>&quot;.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="40" delta="old" >"D:\term 5\CA\lab\Computer-Architecture-Lab\5 - adders\CarrySelectAdder\FourBitSelectAdder.vhd" Line 90: <arg fmt="%s" index="1">std_logic_vector</arg> is not a <arg fmt="%s" index="2">component</arg>
+</msg>
+
+<msg type="error" file="HDLCompiler" num="402" delta="old" >"D:\term 5\CA\lab\Computer-Architecture-Lab\5 - adders\CarrySelectAdder\FourBitSelectAdder.vhd" Line 90: Expected an architecture identifier in index
+</msg>
+
+<msg type="error" file="HDLCompiler" num="56" delta="old" >"D:\term 5\CA\lab\Computer-Architecture-Lab\5 - adders\CarrySelectAdder\FourBitSelectAdder.vhd" Line 91: &lt;<arg fmt="%s" index="1">summux3</arg>&gt; is not a signal.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="56" delta="old" >"D:\term 5\CA\lab\Computer-Architecture-Lab\5 - adders\CarrySelectAdder\FourBitSelectAdder.vhd" Line 92: &lt;<arg fmt="%s" index="1">summux3</arg>&gt; is not a signal.
+</msg>
+
+</messages>
+

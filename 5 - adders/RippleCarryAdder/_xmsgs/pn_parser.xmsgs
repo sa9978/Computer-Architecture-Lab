@@ -11,5 +11,20 @@
 <msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/term 5/CA/lab/Computer-Architecture-Lab/5 - adders/RippleCarryAdder/FourBitRippleCarryAdder.vhd&quot; into library work</arg>
 </msg>
 
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/term 5/CA/lab/Computer-Architecture-Lab/5 - adders/RippleCarryAdder/FullAdder.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/term 5/CA/lab/Computer-Architecture-Lab/5 - adders/RippleCarryAdder/Gand.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/term 5/CA/lab/Computer-Architecture-Lab/5 - adders/RippleCarryAdder/Gor.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/term 5/CA/lab/Computer-Architecture-Lab/5 - adders/RippleCarryAdder/Gxor.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/term 5/CA/lab/Computer-Architecture-Lab/5 - adders/RippleCarryAdder/HalfAdder.vhd&quot; into library work</arg>
+</msg>
+
 </messages>
 
