@@ -80,6 +80,8 @@
     <transform xil_pn:end_ts="1634922978" xil_pn:in_ck="-3243177080353110306" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-2674648345424975254" xil_pn:start_ts="1634922975">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="TBRippleCounter_beh.prj"/>
       <outfile xil_pn:name="TBRippleCounter_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
@@ -89,6 +91,8 @@
     <transform xil_pn:end_ts="1634922978" xil_pn:in_ck="7315629959392290353" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="5189918766585462477" xil_pn:start_ts="1634922978">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="TBRippleCounter_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
     </transform>

@@ -1,0 +1,3 @@
+vhdl work "Gxor.vhd"
+vhdl work "Gand.vhd"
+vhdl work "HalfAdder.vhd"
