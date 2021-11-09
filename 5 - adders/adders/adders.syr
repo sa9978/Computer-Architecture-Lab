@@ -1,0 +1,434 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> Reading design: adders.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "adders.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "adders"
+Output Format                      : NGC
+Target Device                      : xc3s50-5-pq208
+
+---- Source Options
+Top Module Name                    : adders
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Sars/Desktop/5 - adders/CarrySelectAdder/Gxor.vhd" in Library work.
+Entity <Gxor> compiled.
+Entity <Gxor> (Architecture <gatelevel>) compiled.
+Compiling vhdl file "C:/Users/Sars/Desktop/5 - adders/CarrySelectAdder/Gand.vhd" in Library work.
+Entity <Gand> compiled.
+Entity <Gand> (Architecture <gatelevel>) compiled.
+Compiling vhdl file "C:/Users/Sars/Desktop/5 - adders/CarrySelectAdder/HalfAdder.vhd" in Library work.
+Entity <HalfAdder> compiled.
+Entity <HalfAdder> (Architecture <structure>) compiled.
+Compiling vhdl file "C:/Users/Sars/Desktop/5 - adders/CarrySelectAdder/Gor.vhd" in Library work.
+Entity <Gor> compiled.
+Entity <Gor> (Architecture <gatelevel>) compiled.
+Compiling vhdl file "C:/Users/Sars/Desktop/5 - adders/CarrySelectAdder/FullAdder.vhd" in Library work.
+Entity <FullAdder> compiled.
+Entity <FullAdder> (Architecture <structure>) compiled.
+Compiling vhdl file "C:/Users/Sars/Desktop/5 - adders/CarrySelectAdder/FourBitRippleCarryAdder.vhd" in Library work.
+Entity <FourBitRippleCarryAdder> compiled.
+Entity <FourBitRippleCarryAdder> (Architecture <structure>) compiled.
+Compiling vhdl file "C:/Users/Sars/Desktop/5 - adders/CarrySelectAdder/MUX2x1.vhd" in Library work.
+Entity <MUX2x1> compiled.
+Entity <MUX2x1> (Architecture <structure>) compiled.
+Compiling vhdl file "C:/Users/Sars/Desktop/5 - adders/adders/FourBitCarryLookAhead.vhd" in Library work.
+Entity <FourBitCarryLookAhead> compiled.
+Entity <FourBitCarryLookAhead> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Users/Sars/Desktop/5 - adders/CarrySelectAdder/FourBitSelectAdder.vhd" in Library work.
+Entity <FourBitSelectAdder> compiled.
+Entity <FourBitSelectAdder> (Architecture <structure>) compiled.
+Compiling vhdl file "C:/Users/Sars/Desktop/5 - adders/adders/adders.vhd" in Library work.
+Entity <adders> compiled.
+Entity <adders> (Architecture <Behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <adders> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <FourBitRippleCarryAdder> in library <work> (architecture <structure>).
+
+Analyzing hierarchy for entity <FourBitCarryLookAhead> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <FourBitSelectAdder> in library <work> (architecture <structure>).
+
+Analyzing hierarchy for entity <FullAdder> in library <work> (architecture <structure>).
+
+Analyzing hierarchy for entity <FourBitRippleCarryAdder> in library <work> (architecture <structure>).
+
+Analyzing hierarchy for entity <MUX2x1> in library <work> (architecture <structure>).
+
+Analyzing hierarchy for entity <HalfAdder> in library <work> (architecture <structure>).
+
+Analyzing hierarchy for entity <Gor> in library <work> (architecture <gatelevel>).
+
+Analyzing hierarchy for entity <FullAdder> in library <work> (architecture <structure>).
+
+Analyzing hierarchy for entity <FullAdder> in library <work> (architecture <structure>).
+
+Analyzing hierarchy for entity <FullAdder> in library <work> (architecture <structure>).
+
+Analyzing hierarchy for entity <FullAdder> in library <work> (architecture <structure>).
+
+Analyzing hierarchy for entity <Gxor> in library <work> (architecture <gatelevel>).
+
+Analyzing hierarchy for entity <Gand> in library <work> (architecture <gatelevel>).
+
+Analyzing hierarchy for entity <HalfAdder> in library <work> (architecture <structure>).
+
+Analyzing hierarchy for entity <Gor> in library <work> (architecture <gatelevel>).
+
+Analyzing hierarchy for entity <Gxor> in library <work> (architecture <gatelevel>).
+
+Analyzing hierarchy for entity <Gand> in library <work> (architecture <gatelevel>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <adders> in library <work> (Architecture <Behavioral>).
+Entity <adders> analyzed. Unit <adders> generated.
+
+Analyzing Entity <FourBitRippleCarryAdder> in library <work> (Architecture <structure>).
+Entity <FourBitRippleCarryAdder> analyzed. Unit <FourBitRippleCarryAdder> generated.
+
+Analyzing Entity <FullAdder> in library <work> (Architecture <structure>).
+Entity <FullAdder> analyzed. Unit <FullAdder> generated.
+
+Analyzing Entity <HalfAdder> in library <work> (Architecture <structure>).
+Entity <HalfAdder> analyzed. Unit <HalfAdder> generated.
+
+Analyzing Entity <Gxor> in library <work> (Architecture <gatelevel>).
+Entity <Gxor> analyzed. Unit <Gxor> generated.
+
+Analyzing Entity <Gand> in library <work> (Architecture <gatelevel>).
+Entity <Gand> analyzed. Unit <Gand> generated.
+
+Analyzing Entity <Gor> in library <work> (Architecture <gatelevel>).
+Entity <Gor> analyzed. Unit <Gor> generated.
+
+Analyzing Entity <FourBitCarryLookAhead> in library <work> (Architecture <Behavioral>).
+Entity <FourBitCarryLookAhead> analyzed. Unit <FourBitCarryLookAhead> generated.
+
+Analyzing Entity <FourBitSelectAdder> in library <work> (Architecture <structure>).
+Entity <FourBitSelectAdder> analyzed. Unit <FourBitSelectAdder> generated.
+
+Analyzing Entity <MUX2x1> in library <work> (Architecture <structure>).
+Entity <MUX2x1> analyzed. Unit <MUX2x1> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <FourBitCarryLookAhead>.
+    Related source file is "C:/Users/Sars/Desktop/5 - adders/adders/FourBitCarryLookAhead.vhd".
+    Found 4-bit xor2 for signal <s>.
+    Found 4-bit xor2 for signal <P>.
+Unit <FourBitCarryLookAhead> synthesized.
+
+
+Synthesizing Unit <Gor>.
+    Related source file is "C:/Users/Sars/Desktop/5 - adders/CarrySelectAdder/Gor.vhd".
+Unit <Gor> synthesized.
+
+
+Synthesizing Unit <Gxor>.
+    Related source file is "C:/Users/Sars/Desktop/5 - adders/CarrySelectAdder/Gxor.vhd".
+    Found 1-bit xor2 for signal <c>.
+Unit <Gxor> synthesized.
+
+
+Synthesizing Unit <Gand>.
+    Related source file is "C:/Users/Sars/Desktop/5 - adders/CarrySelectAdder/Gand.vhd".
+Unit <Gand> synthesized.
+
+
+Synthesizing Unit <MUX2x1>.
+    Related source file is "C:/Users/Sars/Desktop/5 - adders/CarrySelectAdder/MUX2x1.vhd".
+Unit <MUX2x1> synthesized.
+
+
+Synthesizing Unit <HalfAdder>.
+    Related source file is "C:/Users/Sars/Desktop/5 - adders/CarrySelectAdder/HalfAdder.vhd".
+Unit <HalfAdder> synthesized.
+
+
+Synthesizing Unit <FullAdder>.
+    Related source file is "C:/Users/Sars/Desktop/5 - adders/CarrySelectAdder/FullAdder.vhd".
+Unit <FullAdder> synthesized.
+
+
+Synthesizing Unit <FourBitRippleCarryAdder>.
+    Related source file is "C:/Users/Sars/Desktop/5 - adders/CarrySelectAdder/FourBitRippleCarryAdder.vhd".
+Unit <FourBitRippleCarryAdder> synthesized.
+
+
+Synthesizing Unit <FourBitSelectAdder>.
+    Related source file is "C:/Users/Sars/Desktop/5 - adders/CarrySelectAdder/FourBitSelectAdder.vhd".
+WARNING:Xst:1780 - Signal <c2> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <c1> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+Unit <FourBitSelectAdder> synthesized.
+
+
+Synthesizing Unit <adders>.
+    Related source file is "C:/Users/Sars/Desktop/5 - adders/adders/adders.vhd".
+Unit <adders> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Xors                                                 : 32
+ 1-bit xor2                                            : 32
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1290 - Hierarchical block <CarryOut> is unconnected in block <HalfAdder2>.
+   It will be removed from the design.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Xors                                                 : 32
+ 1-bit xor2                                            : 32
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <adders> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block adders, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : adders.ngr
+Top Level Output File Name         : adders
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 24
+
+Cell Usage :
+# BELS                             : 11
+#      LUT2                        : 1
+#      LUT3                        : 5
+#      LUT4                        : 4
+#      MUXF5                       : 1
+# IO Buffers                       : 24
+#      IBUF                        : 9
+#      OBUF                        : 15
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s50pq208-5 
+
+ Number of Slices:                        6  out of    768     0%  
+ Number of 4 input LUTs:                 10  out of   1536     0%  
+ Number of IOs:                          24
+ Number of bonded IOBs:                  24  out of    124    19%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 10.753ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 123 / 15
+-------------------------------------------------------------------------
+Delay:               10.753ns (Levels of Logic = 5)
+  Source:            cin (PAD)
+  Destination:       s_RCA<3> (PAD)
+
+  Data Path: cin to s_RCA<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   0.715   1.040  cin_IBUF (cin_IBUF)
+     LUT3:I0->O            4   0.479   0.779  CSA/MUX2x1_3/o2_SW0 (cout_CSA_bdd4)
+     MUXF5:S->O            2   0.540   1.040  cout_CSA11_f5 (cout_CSA_bdd0)
+     LUT3:I0->O            3   0.479   0.771  s_CSA<3>1 (s_CSA_3_OBUF)
+     OBUF:I->O                 4.909          s_CSA_3_OBUF (s_CSA<3>)
+    ----------------------------------------
+    Total                     10.753ns (7.122ns logic, 3.631ns route)
+                                       (66.2% logic, 33.8% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 3.11 secs
+ 
+--> 
+
+Total memory usage is 4500836 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    3 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

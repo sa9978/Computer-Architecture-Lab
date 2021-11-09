@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Sars/Desktop/5 - adders/adders/testAdders_isim_beh.exe" -prj "C:/Users/Sars/Desktop/5 - adders/adders/testAdders_beh.prj" "work.testAdders" 

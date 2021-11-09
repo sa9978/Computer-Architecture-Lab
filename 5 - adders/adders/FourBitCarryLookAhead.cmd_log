@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/Sars/Desktop/5 - adders/adders/FourBitCarryLookAhead.xst" -ofn "C:/Users/Sars/Desktop/5 - adders/adders/FourBitCarryLookAhead.syr" 

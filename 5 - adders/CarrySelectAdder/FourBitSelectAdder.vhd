@@ -51,6 +51,11 @@ architecture structure of FourBitSelectAdder is
 	signal s1, s2 : STD_LOGIC_VECTOR(3 downto 0); --sum row 1 and 2
 	signal c1, c2 : STD_LOGIC_VECTOR(3 downto 0); -- carry row 1 and 2
 	signal cout1, cout2 : STD_LOGIC;
+	signal sumMUX1 : STD_LOGIC_VECTOR(1 downto 0);
+	signal sumMUX2 : STD_LOGIC_VECTOR(1 downto 0);
+	signal sumMUX3 : STD_LOGIC_VECTOR(1 downto 0);
+	signal sumMUX4 : STD_LOGIC_VECTOR(1 downto 0);
+	signal FinalMux : STD_LOGIC_VECTOR(1 downto 0);
 
 begin
 
@@ -70,7 +75,7 @@ begin
 		cout => cout2
 	);
 ----------------
-	signal sumMUX1 : STD_LOGIC_VECTOR(1 downto 0);
+	
 	sumMUX1(0) <= s1(0);
 	sumMUX1(1) <= s2(0);
 	MUX2x1_1 : MUX2x1 port map (
@@ -79,7 +84,7 @@ begin
 		o => s(0)
 	);
 	
-	signal sumMUX2 : STD_LOGIC_VECTOR(1 downto 0);
+	
 	sumMUX2(0) <= s1(1);
 	sumMUX2(1) <= s2(1);
 	MUX2x1_2 : MUX2x1 port map (
@@ -87,7 +92,6 @@ begin
 		s => cin, 
 		o => s(1)
 	);
-	signal sumMUX3 : STD_LOGIC_VECTOR(1 downto 0);
 	sumMUX3(0) <= s1(2);
 	sumMUX3(1) <= s2(2);
 	MUX2x1_3 : MUX2x1 port map (
@@ -95,7 +99,7 @@ begin
 		s => cin, 
 		o => s(2)
 	);
-	signal sumMUX4 : STD_LOGIC_VECTOR(1 downto 0);
+
 	sumMUX4(0) <= s1(3);
 	sumMUX4(1) <= s2(3);
 	MUX2x1_4 : MUX2x1 port map (
@@ -105,10 +109,10 @@ begin
 	);
 	
 	-----------
-	signal FinalMux : STD_LOGIC_VECTOR(1 downto 0);
+	
 	FinalMux(0) <= cout1;
 	FinalMux(1) <= cout2;
-	FinalMux : MUX2x1 port map (
+	Final : MUX2x1 port map (
 		i => FinalMux,  
 		s => cin, 
 		o => cout

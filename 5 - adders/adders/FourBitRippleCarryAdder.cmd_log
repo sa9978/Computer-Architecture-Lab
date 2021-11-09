@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "C:/Users/Sars/Desktop/5 - adders/adders/FourBitRippleCarryAdder.xst" -ofn "C:/Users/Sars/Desktop/5 - adders/adders/FourBitRippleCarryAdder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 "FourBitRippleCarryAdder.ngc" FourBitRippleCarryAdder.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o FourBitRippleCarryAdder_map.ncd FourBitRippleCarryAdder.ngd FourBitRippleCarryAdder.pcf 
+par -w -intstyle ise -ol high -t 1 FourBitRippleCarryAdder_map.ncd FourBitRippleCarryAdder.ncd FourBitRippleCarryAdder.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml FourBitRippleCarryAdder.twx FourBitRippleCarryAdder.ncd -o FourBitRippleCarryAdder.twr FourBitRippleCarryAdder.pcf 

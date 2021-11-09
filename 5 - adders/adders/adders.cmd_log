@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "C:/Users/Sars/Desktop/5 - adders/adders/adders.xst" -ofn "C:/Users/Sars/Desktop/5 - adders/adders/adders.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 "adders.ngc" adders.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o adders_map.ncd adders.ngd adders.pcf 
+par -w -intstyle ise -ol high -t 1 adders_map.ncd adders.ncd adders.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml adders.twx adders.ncd -o adders.twr adders.pcf 

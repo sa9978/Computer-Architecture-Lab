@@ -1,0 +1,6 @@
+vhdl work "../CarrySelectAdder/Gxor.vhd"
+vhdl work "../CarrySelectAdder/Gand.vhd"
+vhdl work "../CarrySelectAdder/HalfAdder.vhd"
+vhdl work "../CarrySelectAdder/Gor.vhd"
+vhdl work "../CarrySelectAdder/FullAdder.vhd"
+vhdl work "../CarrySelectAdder/FourBitRippleCarryAdder.vhd"

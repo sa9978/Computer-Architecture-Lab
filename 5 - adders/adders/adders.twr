@@ -1,0 +1,158 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\ise\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 5 -n 3
+-fastpaths -xml adders.twx adders.ncd -o adders.twr adders.pcf
+
+Design file:              adders.ncd
+Physical constraint file: adders.pcf
+Device,package,speed:     xc3s50,pq208,-5 (PRODUCTION 1.39 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+a<0>           |cout_CLA       |    8.954|
+a<0>           |cout_CSA       |    8.954|
+a<0>           |cout_RCA       |    9.270|
+a<0>           |s_CLA<0>       |    7.214|
+a<0>           |s_CLA<1>       |    7.934|
+a<0>           |s_CLA<2>       |    7.473|
+a<0>           |s_CLA<3>       |    8.670|
+a<0>           |s_CSA<0>       |    7.178|
+a<0>           |s_CSA<1>       |    8.233|
+a<0>           |s_CSA<2>       |    7.404|
+a<0>           |s_CSA<3>       |    8.971|
+a<0>           |s_RCA<0>       |    6.915|
+a<0>           |s_RCA<1>       |    8.250|
+a<0>           |s_RCA<2>       |    7.778|
+a<0>           |s_RCA<3>       |    9.291|
+a<1>           |cout_CLA       |    8.732|
+a<1>           |cout_CSA       |    8.732|
+a<1>           |cout_RCA       |    9.048|
+a<1>           |s_CLA<1>       |    7.263|
+a<1>           |s_CLA<2>       |    6.731|
+a<1>           |s_CLA<3>       |    8.448|
+a<1>           |s_CSA<1>       |    7.562|
+a<1>           |s_CSA<2>       |    6.766|
+a<1>           |s_CSA<3>       |    8.749|
+a<1>           |s_RCA<1>       |    7.579|
+a<1>           |s_RCA<2>       |    7.036|
+a<1>           |s_RCA<3>       |    9.069|
+a<2>           |cout_CLA       |    8.860|
+a<2>           |cout_CSA       |    8.860|
+a<2>           |cout_RCA       |    9.176|
+a<2>           |s_CLA<2>       |    8.228|
+a<2>           |s_CLA<3>       |    8.576|
+a<2>           |s_CSA<2>       |    8.090|
+a<2>           |s_CSA<3>       |    8.877|
+a<2>           |s_RCA<2>       |    8.533|
+a<2>           |s_RCA<3>       |    9.197|
+a<3>           |cout_CLA       |    7.024|
+a<3>           |cout_CSA       |    7.024|
+a<3>           |cout_RCA       |    7.340|
+a<3>           |s_CLA<3>       |    6.679|
+a<3>           |s_CSA<3>       |    6.980|
+a<3>           |s_RCA<3>       |    7.300|
+b<0>           |cout_CLA       |    9.190|
+b<0>           |cout_CSA       |    9.190|
+b<0>           |cout_RCA       |    9.506|
+b<0>           |s_CLA<0>       |    7.067|
+b<0>           |s_CLA<1>       |    8.170|
+b<0>           |s_CLA<2>       |    7.709|
+b<0>           |s_CLA<3>       |    8.906|
+b<0>           |s_CSA<0>       |    7.031|
+b<0>           |s_CSA<1>       |    8.469|
+b<0>           |s_CSA<2>       |    7.640|
+b<0>           |s_CSA<3>       |    9.207|
+b<0>           |s_RCA<0>       |    6.768|
+b<0>           |s_RCA<1>       |    8.486|
+b<0>           |s_RCA<2>       |    8.014|
+b<0>           |s_RCA<3>       |    9.527|
+b<1>           |cout_CLA       |    8.791|
+b<1>           |cout_CSA       |    8.791|
+b<1>           |cout_RCA       |    9.107|
+b<1>           |s_CLA<1>       |    7.338|
+b<1>           |s_CLA<2>       |    7.015|
+b<1>           |s_CLA<3>       |    8.507|
+b<1>           |s_CSA<1>       |    7.637|
+b<1>           |s_CSA<2>       |    6.982|
+b<1>           |s_CSA<3>       |    8.808|
+b<1>           |s_RCA<1>       |    7.654|
+b<1>           |s_RCA<2>       |    7.320|
+b<1>           |s_RCA<3>       |    9.128|
+b<2>           |cout_CLA       |    8.230|
+b<2>           |cout_CSA       |    8.230|
+b<2>           |cout_RCA       |    8.546|
+b<2>           |s_CLA<2>       |    7.763|
+b<2>           |s_CLA<3>       |    7.946|
+b<2>           |s_CSA<2>       |    7.625|
+b<2>           |s_CSA<3>       |    8.247|
+b<2>           |s_RCA<2>       |    8.068|
+b<2>           |s_RCA<3>       |    8.567|
+b<3>           |cout_CLA       |    7.152|
+b<3>           |cout_CSA       |    7.152|
+b<3>           |cout_RCA       |    7.468|
+b<3>           |s_CLA<3>       |    6.881|
+b<3>           |s_CSA<3>       |    7.182|
+b<3>           |s_RCA<3>       |    7.502|
+cin            |cout_CLA       |    8.950|
+cin            |cout_CSA       |    8.950|
+cin            |cout_RCA       |    9.266|
+cin            |s_CLA<0>       |    7.230|
+cin            |s_CLA<1>       |    7.930|
+cin            |s_CLA<2>       |    7.469|
+cin            |s_CLA<3>       |    8.666|
+cin            |s_CSA<0>       |    7.194|
+cin            |s_CSA<1>       |    8.229|
+cin            |s_CSA<2>       |    7.400|
+cin            |s_CSA<3>       |    8.967|
+cin            |s_RCA<0>       |    6.931|
+cin            |s_RCA<1>       |    8.246|
+cin            |s_RCA<2>       |    7.774|
+cin            |s_RCA<3>       |    9.287|
+---------------+---------------+---------+
+
+
+Analysis completed Fri Nov 05 23:26:17 2021 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4470 MB
+
+
+

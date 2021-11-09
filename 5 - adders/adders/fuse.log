@@ -1,0 +1,37 @@
+Running: C:\ise\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Sars/Desktop/5 - adders/adders/testAdders_isim_beh.exe -prj C:/Users/Sars/Desktop/5 - adders/adders/testAdders_beh.prj work.testAdders 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Sars/Desktop/5 - adders/adders/../CarrySelectAdder/Gxor.vhd" into library work
+Parsing VHDL file "C:/Users/Sars/Desktop/5 - adders/adders/../CarrySelectAdder/Gand.vhd" into library work
+Parsing VHDL file "C:/Users/Sars/Desktop/5 - adders/adders/../CarrySelectAdder/HalfAdder.vhd" into library work
+Parsing VHDL file "C:/Users/Sars/Desktop/5 - adders/adders/../CarrySelectAdder/Gor.vhd" into library work
+Parsing VHDL file "C:/Users/Sars/Desktop/5 - adders/adders/../CarrySelectAdder/FullAdder.vhd" into library work
+Parsing VHDL file "C:/Users/Sars/Desktop/5 - adders/adders/../CarrySelectAdder/MUX2x1.vhd" into library work
+Parsing VHDL file "C:/Users/Sars/Desktop/5 - adders/adders/../CarrySelectAdder/FourBitRippleCarryAdder.vhd" into library work
+Parsing VHDL file "C:/Users/Sars/Desktop/5 - adders/adders/../CarrySelectAdder/FourBitSelectAdder.vhd" into library work
+Parsing VHDL file "C:/Users/Sars/Desktop/5 - adders/adders/FourBitCarryLookAhead.vhd" into library work
+Parsing VHDL file "C:/Users/Sars/Desktop/5 - adders/adders/adders.vhd" into library work
+Parsing VHDL file "C:/Users/Sars/Desktop/5 - adders/adders/testAdders.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture gatelevel of entity Gxor [gxor_default]
+Compiling architecture gatelevel of entity Gand [gand_default]
+Compiling architecture structure of entity HalfAdder [halfadder_default]
+Compiling architecture gatelevel of entity Gor [gor_default]
+Compiling architecture structure of entity FullAdder [fulladder_default]
+Compiling architecture structure of entity FourBitRippleCarryAdder [fourbitripplecarryadder_default]
+Compiling architecture behavioral of entity FourBitCarryLookAhead [fourbitcarrylookahead_default]
+Compiling architecture structure of entity MUX2x1 [mux2x1_default]
+Compiling architecture structure of entity FourBitSelectAdder [fourbitselectadder_default]
+Compiling architecture behavioral of entity adders [adders_default]
+Compiling architecture behavior of entity testadders
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 23 VHDL Units
+Built simulation executable C:/Users/Sars/Desktop/5 - adders/adders/testAdders_isim_beh.exe
+Fuse Memory Usage: 31536 KB
+Fuse CPU Usage: 359 ms
