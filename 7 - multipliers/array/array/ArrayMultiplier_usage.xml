@@ -5,15 +5,15 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <DeviceUsageSummary rev="1">
-<DesignStatistics TimeStamp="Tue Nov 09 20:24:58 2021"><group name="MiscellaneousStatistics">
+<DesignStatistics TimeStamp="Wed Nov 17 08:45:26 2021"><group name="MiscellaneousStatistics">
 <item name="AGG_BONDED_IO" rev="1">
-<attrib name="value" value="5"/></item>
+<attrib name="value" value="6"/></item>
 <item name="AGG_IO" rev="1">
-<attrib name="value" value="5"/></item>
+<attrib name="value" value="6"/></item>
 <item name="AGG_SLICE" rev="1">
 <attrib name="value" value="1"/></item>
 <item name="NUM_BONDED_IOB" rev="1">
-<attrib name="value" value="5"/></item>
+<attrib name="value" value="6"/></item>
 <item name="NUM_BSLUTONLY" rev="1">
 <attrib name="value" value="1"/></item>
 <item name="NUM_BSUSED" rev="1">

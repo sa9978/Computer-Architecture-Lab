@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/6/6 - bcd adder/BCDAdder/bcd_test_isim_beh.exe" -prj "C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/6/6 - bcd adder/BCDAdder/bcd_test_beh.prj" "work.bcd_test" 

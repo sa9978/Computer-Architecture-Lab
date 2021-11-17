@@ -8,7 +8,10 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/term 5/CA/lab/Computer-Architecture-Lab/6 - bcd adder/BCDAdder/BCDAdder.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Sars/Desktop/6 - bcd adder (1)/6 - bcd adder/BCDAdder/BCDAdder.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Sars/Desktop/6 - bcd adder (1)/6 - bcd adder/BCDAdder/FullAdder.vhd&quot; into library work</arg>
 </msg>
 
 </messages>

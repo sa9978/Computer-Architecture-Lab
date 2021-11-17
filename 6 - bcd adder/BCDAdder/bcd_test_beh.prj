@@ -1,0 +1,3 @@
+vhdl work "FullAdder.vhd"
+vhdl work "BCDAdder.vhd"
+vhdl work "bcd_test.vhd"

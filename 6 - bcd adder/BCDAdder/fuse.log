@@ -1,0 +1,21 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/6/6 - bcd adder/BCDAdder/bcd_test_isim_beh.exe -prj C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/6/6 - bcd adder/BCDAdder/bcd_test_beh.prj work.bcd_test 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/6/6 - bcd adder/BCDAdder/FullAdder.vhd" into library work
+Parsing VHDL file "C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/6/6 - bcd adder/BCDAdder/BCDAdder.vhd" into library work
+Parsing VHDL file "C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/6/6 - bcd adder/BCDAdder/bcd_test.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture gatelevel of entity FullAdder [fulladder_default]
+Compiling architecture behavioral of entity BCDAdder [bcdadder_default]
+Compiling architecture behavior of entity bcd_test
+Time Resolution for simulation is 1ps.
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: The system cannot find the path specified, "isim\bcd_test_isim_beh.exe.sim\libPortability.dll".
+Compiled 7 VHDL Units
+Built simulation executable C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/6/6 - bcd adder/BCDAdder/bcd_test_isim_beh.exe
+Fuse Memory Usage: 28012 KB
+Fuse CPU Usage: 500 ms
