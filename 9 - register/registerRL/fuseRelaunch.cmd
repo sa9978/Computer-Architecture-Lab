@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/9/register/registerRL/reg_tb_isim_beh.exe" -prj "C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/9/register/registerRL/reg_tb_beh.prj" "work.reg_tb" 
