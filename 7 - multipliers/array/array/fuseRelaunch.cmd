@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "D:/term 5/CA/lab/Computer-Architecture-Lab/7 - multipliers/array/array/TBArray_isim_beh.exe" -prj "D:/term 5/CA/lab/Computer-Architecture-Lab/7 - multipliers/array/array/TBArray_beh.prj" "work.TBArray" 

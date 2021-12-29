@@ -5,5 +5,8 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\term 5\CA\lab\Computer-Architecture-Lab\7 - multipliers\array\array\ArrayMultiplier.vhd</arg>&quot; line <arg fmt="%s" index="2">98</arg>: Output port &lt;<arg fmt="%s" index="3">S</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">FullAdder2</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
 </messages>
 

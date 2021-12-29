@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/term 5/CA/lab/Computer-Architecture-Lab/8 - shift and add multiplier/ShiftAndAdd/Multiplicand.xst" -ofn "D:/term 5/CA/lab/Computer-Architecture-Lab/8 - shift and add multiplier/ShiftAndAdd/Multiplicand.syr" 

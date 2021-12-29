@@ -1,6 +1,9 @@
-set -tmpdir "D:/term 5/CA/lab/Computer-Architecture-Lab/7 - multipliers/array/array/xst/projnav.tmp"
-set -xsthdpdir "D:/term 5/CA/lab/Computer-Architecture-Lab/7 - multipliers/array/array/xst"
-run -compileonly yes
+set -tmpdir "xst/projnav.tmp"
+set -xsthdpdir "xst"
+run
+-ifn ArrayMultiplier.prj
+-ofn ArrayMultiplier
+-ofmt NGC
 -p xc7a100t-3-csg324
 -top ArrayMultiplier
 -opt_mode Speed
@@ -47,4 +50,3 @@ run -compileonly yes
 -iob Auto
 -equivalent_register_removal YES
 -slice_utilization_ratio_maxmargin 5
--ifn ArrayMultiplier.prj

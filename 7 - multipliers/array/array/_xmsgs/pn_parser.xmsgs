@@ -11,5 +11,11 @@
 <msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/term 5/CA/lab/Computer-Architecture-Lab/7 - multipliers/array/array/ArrayMultiplier.vhd&quot; into library work</arg>
 </msg>
 
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/term 5/CA/lab/Computer-Architecture-Lab/7 - multipliers/array/array/FullAdder.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/term 5/CA/lab/Computer-Architecture-Lab/7 - multipliers/array/array/HalfAdder.vhd&quot; into library work</arg>
+</msg>
+
 </messages>
 

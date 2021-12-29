@@ -124,7 +124,6 @@ Elaborating entity <ArrayMultiplier> (architecture <Behavioral>) from library <w
 Elaborating entity <HalfAdder> (architecture <gatelevel>) from library <work>.
 
 Elaborating entity <FullAdder> (architecture <gatelevel>) from library <work>.
-WARNING:Xst:2972 - "D:\term 5\CA\lab\Computer-Architecture-Lab\7 - multipliers\array\array\ArrayMultiplier.vhd" line 90. All outputs of instance <FullAdder1> of block <FullAdder> are unconnected in block <ArrayMultiplier>. Underlying logic will be removed.
 
 =========================================================================
 *                           HDL Synthesis                               *
@@ -132,10 +131,7 @@ WARNING:Xst:2972 - "D:\term 5\CA\lab\Computer-Architecture-Lab\7 - multipliers\a
 
 Synthesizing Unit <ArrayMultiplier>.
     Related source file is "D:\term 5\CA\lab\Computer-Architecture-Lab\7 - multipliers\array\array\ArrayMultiplier.vhd".
-WARNING:Xst:647 - Input <A<3:3>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-WARNING:Xst:647 - Input <B<3:2>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-INFO:Xst:3210 - "D:\term 5\CA\lab\Computer-Architecture-Lab\7 - multipliers\array\array\ArrayMultiplier.vhd" line 90: Output port <S> of the instance <FullAdder1> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "D:\term 5\CA\lab\Computer-Architecture-Lab\7 - multipliers\array\array\ArrayMultiplier.vhd" line 90: Output port <Cout> of the instance <FullAdder1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\term 5\CA\lab\Computer-Architecture-Lab\7 - multipliers\array\array\ArrayMultiplier.vhd" line 98: Output port <S> of the instance <FullAdder2> is unconnected or connected to loadless signal.
     Summary:
 	no macro.
 Unit <ArrayMultiplier> synthesized.
@@ -145,12 +141,17 @@ Synthesizing Unit <HalfAdder>.
     Summary:
 Unit <HalfAdder> synthesized.
 
+Synthesizing Unit <FullAdder>.
+    Related source file is "D:\term 5\CA\lab\Computer-Architecture-Lab\7 - multipliers\array\array\FullAdder.vhd".
+    Summary:
+Unit <FullAdder> synthesized.
+
 =========================================================================
 HDL Synthesis Report
 
 Macro Statistics
-# Xors                                                 : 1
- 1-bit xor2                                            : 1
+# Xors                                                 : 20
+ 1-bit xor2                                            : 20
 
 =========================================================================
 
@@ -163,8 +164,8 @@ Macro Statistics
 Advanced HDL Synthesis Report
 
 Macro Statistics
-# Xors                                                 : 1
- 1-bit xor2                                            : 1
+# Xors                                                 : 20
+ 1-bit xor2                                            : 20
 
 =========================================================================
 
@@ -205,12 +206,14 @@ Top Level Output File Name         : ArrayMultiplier.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 2
+# BELS                             : 17
 #      LUT2                        : 1
-#      LUT4                        : 1
-# IO Buffers                       : 6
-#      IBUF                        : 4
-#      OBUF                        : 2
+#      LUT4                        : 3
+#      LUT5                        : 5
+#      LUT6                        : 8
+# IO Buffers                       : 16
+#      IBUF                        : 8
+#      OBUF                        : 8
 
 Device utilization summary:
 ---------------------------
@@ -219,19 +222,19 @@ Selected Device : 7a100tcsg324-3
 
 
 Slice Logic Utilization: 
- Number of Slice LUTs:                    2  out of  63400     0%  
-    Number used as Logic:                 2  out of  63400     0%  
+ Number of Slice LUTs:                   17  out of  63400     0%  
+    Number used as Logic:                17  out of  63400     0%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:      2
-   Number with an unused Flip Flop:       2  out of      2   100%  
-   Number with an unused LUT:             0  out of      2     0%  
-   Number of fully used LUT-FF pairs:     0  out of      2     0%  
+ Number of LUT Flip Flop pairs used:     17
+   Number with an unused Flip Flop:      17  out of     17   100%  
+   Number with an unused LUT:             0  out of     17     0%  
+   Number of fully used LUT-FF pairs:     0  out of     17     0%  
    Number of unique control sets:         0
 
 IO Utilization: 
  Number of IOs:                          16
- Number of bonded IOBs:                   6  out of    210     2%  
+ Number of bonded IOBs:                  16  out of    210     7%  
 
 Specific Feature Utilization:
 
@@ -266,7 +269,7 @@ Speed Grade: -3
    Minimum period: No path found
    Minimum input arrival time before clock: No path found
    Maximum output required time after clock: No path found
-   Maximum combinational path delay: 0.938ns
+   Maximum combinational path delay: 3.595ns
 
 Timing Details:
 ---------------
@@ -274,22 +277,26 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default path analysis
-  Total number of paths / destination ports: 6 / 2
+  Total number of paths / destination ports: 250 / 8
 -------------------------------------------------------------------------
-Delay:               0.938ns (Levels of Logic = 3)
-  Source:            A<0> (PAD)
-  Destination:       M<1> (PAD)
+Delay:               3.595ns (Levels of Logic = 7)
+  Source:            B<1> (PAD)
+  Destination:       M<7> (PAD)
 
-  Data Path: A<0> to M<1>
+  Data Path: B<1> to M<7>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O             2   0.001   0.561  A_0_IBUF (A_0_IBUF)
-     LUT4:I0->O            1   0.097   0.279  HalfAdder1/Mxor_S_xo<0>1 (M_1_OBUF)
-     OBUF:I->O                 0.000          M_1_OBUF (M<1>)
+     IBUF:I->O             7   0.001   0.721  B_1_IBUF (B_1_IBUF)
+     LUT6:I0->O            2   0.097   0.561  HalfAdder2/Mxor_S_xo<0>1 (sS<3>)
+     LUT6:I2->O            2   0.097   0.688  FullAdder4/Cout1 (sC<6>)
+     LUT5:I0->O            2   0.097   0.299  FullAdder5/Mxor_S_xo<0>1 (sS<6>)
+     LUT6:I5->O            2   0.097   0.561  FullAdder7/Cout1 (sC<10>)
+     LUT4:I0->O            1   0.097   0.279  FullAdder8/Cout1 (M_7_OBUF)
+     OBUF:I->O                 0.000          M_7_OBUF (M<7>)
     ----------------------------------------
-    Total                      0.938ns (0.098ns logic, 0.840ns route)
-                                       (10.4% logic, 89.6% route)
+    Total                      3.595ns (0.486ns logic, 3.109ns route)
+                                       (13.5% logic, 86.5% route)
 
 =========================================================================
 
@@ -299,14 +306,14 @@ Cross Clock Domains Report:
 =========================================================================
 
 
-Total REAL time to Xst completion: 6.00 secs
-Total CPU time to Xst completion: 5.85 secs
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 5.91 secs
  
 --> 
 
 Total memory usage is 4689456 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :    3 (   0 filtered)
-Number of infos    :    2 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
 

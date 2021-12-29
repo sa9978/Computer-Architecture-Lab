@@ -1,0 +1,70 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to D:/term 5/CA/lab/Computer-Architecture-Lab/8 - shift and add multiplier/ShiftAndAdd/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Parameter xsthdpdir set to D:/term 5/CA/lab/Computer-Architecture-Lab/8 - shift and add multiplier/ShiftAndAdd/xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Reading design: RCA.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "D:\term 5\CA\lab\Computer-Architecture-Lab\8 - shift and add multiplier\ShiftAndAdd\RCA.vhd" into library work
+Parsing entity <RCA>.
+ERROR:HDLCompiler:806 - "D:\term 5\CA\lab\Computer-Architecture-Lab\8 - shift and add multiplier\ShiftAndAdd\RCA.vhd" Line 33: Syntax error near "8".
+ERROR:HDLCompiler:854 - "D:\term 5\CA\lab\Computer-Architecture-Lab\8 - shift and add multiplier\ShiftAndAdd\RCA.vhd" Line 31: Unit <rca> ignored due to previous errors.
+Parsing architecture <struc> of entity <rca>.
+ERROR:HDLCompiler:374 - "D:\term 5\CA\lab\Computer-Architecture-Lab\8 - shift and add multiplier\ShiftAndAdd\RCA.vhd" Line 41: Entity <rca> is not yet compiled.
+ERROR:HDLCompiler:69 - "D:\term 5\CA\lab\Computer-Architecture-Lab\8 - shift and add multiplier\ShiftAndAdd\RCA.vhd" Line 42: <std_logic_vector> is not declared.
+ERROR:HDLCompiler:69 - "D:\term 5\CA\lab\Computer-Architecture-Lab\8 - shift and add multiplier\ShiftAndAdd\RCA.vhd" Line 45: <std_logic> is not declared.
+ERROR:HDLCompiler:69 - "D:\term 5\CA\lab\Computer-Architecture-Lab\8 - shift and add multiplier\ShiftAndAdd\RCA.vhd" Line 46: <std_logic> is not declared.
+ERROR:HDLCompiler:69 - "D:\term 5\CA\lab\Computer-Architecture-Lab\8 - shift and add multiplier\ShiftAndAdd\RCA.vhd" Line 47: <std_logic> is not declared.
+ERROR:HDLCompiler:69 - "D:\term 5\CA\lab\Computer-Architecture-Lab\8 - shift and add multiplier\ShiftAndAdd\RCA.vhd" Line 48: <std_logic> is not declared.
+ERROR:HDLCompiler:69 - "D:\term 5\CA\lab\Computer-Architecture-Lab\8 - shift and add multiplier\ShiftAndAdd\RCA.vhd" Line 49: <std_logic> is not declared.
+ERROR:HDLCompiler:69 - "D:\term 5\CA\lab\Computer-Architecture-Lab\8 - shift and add multiplier\ShiftAndAdd\RCA.vhd" Line 53: <c_temp> is not declared.
+ERROR:HDLCompiler:24 - "D:\term 5\CA\lab\Computer-Architecture-Lab\8 - shift and add multiplier\ShiftAndAdd\RCA.vhd" Line 54: "**" expects 2 arguments
+ERROR:HDLCompiler:69 - "D:\term 5\CA\lab\Computer-Architecture-Lab\8 - shift and add multiplier\ShiftAndAdd\RCA.vhd" Line 56: <i> is not declared.
+ERROR:HDLCompiler:69 - "D:\term 5\CA\lab\Computer-Architecture-Lab\8 - shift and add multiplier\ShiftAndAdd\RCA.vhd" Line 57: <ra> is not declared.
+ERROR:HDLCompiler:192 - "D:\term 5\CA\lab\Computer-Architecture-Lab\8 - shift and add multiplier\ShiftAndAdd\RCA.vhd" Line 57: Actual of formal out port sum cannot be an expression
+ERROR:HDLCompiler:69 - "D:\term 5\CA\lab\Computer-Architecture-Lab\8 - shift and add multiplier\ShiftAndAdd\RCA.vhd" Line 60: <i> is not declared.
+ERROR:HDLCompiler:69 - "D:\term 5\CA\lab\Computer-Architecture-Lab\8 - shift and add multiplier\ShiftAndAdd\RCA.vhd" Line 61: <ra> is not declared.
+ERROR:HDLCompiler:192 - "D:\term 5\CA\lab\Computer-Architecture-Lab\8 - shift and add multiplier\ShiftAndAdd\RCA.vhd" Line 61: Actual of formal out port sum cannot be an expression
+VHDL file D:\term 5\CA\lab\Computer-Architecture-Lab\8 - shift and add multiplier\ShiftAndAdd\RCA.vhd ignored due to errors
+--> 
+
+Total memory usage is 4472100 kilobytes
+
+Number of errors   :   17 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

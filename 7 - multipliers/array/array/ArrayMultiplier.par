@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-SARA::  Wed Nov 17 08:45:29 2021
+SARA::  Wed Nov 17 09:07:32 2021
 
 par -w -intstyle ise -ol high -mt off ArrayMultiplier_map.ncd
 ArrayMultiplier.ncd ArrayMultiplier.pcf 
@@ -28,21 +28,21 @@ Device Utilization Summary:
 
 Slice Logic Utilization:
   Number of Slice Registers:                     0 out of 126,800    0%
-  Number of Slice LUTs:                          1 out of  63,400    1%
-    Number used as logic:                        1 out of  63,400    1%
-      Number using O6 output only:               0
+  Number of Slice LUTs:                         13 out of  63,400    1%
+    Number used as logic:                       13 out of  63,400    1%
+      Number using O6 output only:               9
       Number using O5 output only:               0
-      Number using O5 and O6:                    1
+      Number using O5 and O6:                    4
       Number used as ROM:                        0
     Number used as Memory:                       0 out of  19,000    0%
     Number used exclusively as route-thrus:      0
 
 Slice Logic Distribution:
-  Number of occupied Slices:                     1 out of  15,850    1%
-  Number of LUT Flip Flop pairs used:            1
-    Number with an unused Flip Flop:             1 out of       1  100%
-    Number with an unused LUT:                   0 out of       1    0%
-    Number of fully used LUT-FF pairs:           0 out of       1    0%
+  Number of occupied Slices:                     4 out of  15,850    1%
+  Number of LUT Flip Flop pairs used:           13
+    Number with an unused Flip Flop:            13 out of      13  100%
+    Number with an unused LUT:                   0 out of      13    0%
+    Number of fully used LUT-FF pairs:           0 out of      13    0%
     Number of slice register sites lost
       to control set restrictions:               0 out of 126,800    0%
 
@@ -55,7 +55,7 @@ Slice Logic Distribution:
   over-mapped for a non-BRAM resource or if placement fails.
 
 IO Utilization:
-  Number of bonded IOBs:                         6 out of     210    2%
+  Number of bonded IOBs:                        16 out of     210    7%
 
 Specific Feature Utilization:
   Number of RAMB36E1/FIFO36E1s:                  0 out of     135    0%
@@ -98,13 +98,13 @@ Finished initial Timing Analysis.  REAL time: 8 secs
 Starting Router
 
 
-Phase  1  : 7 unrouted;      REAL time: 9 secs 
+Phase  1  : 81 unrouted;      REAL time: 9 secs 
 
-Phase  2  : 7 unrouted;      REAL time: 9 secs 
+Phase  2  : 81 unrouted;      REAL time: 9 secs 
 
-Phase  3  : 4 unrouted;      REAL time: 9 secs 
+Phase  3  : 38 unrouted;      REAL time: 9 secs 
 
-Phase  4  : 4 unrouted; (Par is working to improve performance)     REAL time: 11 secs 
+Phase  4  : 38 unrouted; (Par is working to improve performance)     REAL time: 11 secs 
 
 Updating file: ArrayMultiplier.ncd with current fully routed design.
 
@@ -140,7 +140,7 @@ All signals are completely routed.
 Total REAL time to PAR completion: 12 secs 
 Total CPU time to PAR completion: 11 secs 
 
-Peak Memory Usage:  4792 MB
+Peak Memory Usage:  4789 MB
 
 Placer: Placement generated during map.
 Routing: Completed - No errors found.

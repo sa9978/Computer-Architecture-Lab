@@ -1,0 +1,23 @@
+Running: C:\ise\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o D:/term 5/CA/lab/Computer-Architecture-Lab/7 - multipliers/array/array/TBArray_isim_beh.exe -prj D:/term 5/CA/lab/Computer-Architecture-Lab/7 - multipliers/array/array/TBArray_beh.prj work.TBArray 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/term 5/CA/lab/Computer-Architecture-Lab/7 - multipliers/array/array/HalfAdder.vhd" into library work
+Parsing VHDL file "D:/term 5/CA/lab/Computer-Architecture-Lab/7 - multipliers/array/array/FullAdder.vhd" into library work
+Parsing VHDL file "D:/term 5/CA/lab/Computer-Architecture-Lab/7 - multipliers/array/array/ArrayMultiplier.vhd" into library work
+Parsing VHDL file "D:/term 5/CA/lab/Computer-Architecture-Lab/7 - multipliers/array/array/TBArray.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture gatelevel of entity HalfAdder [halfadder_default]
+Compiling architecture gatelevel of entity FullAdder [fulladder_default]
+Compiling architecture behavioral of entity ArrayMultiplier [arraymultiplier_default]
+Compiling architecture behavior of entity tbarray
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 9 VHDL Units
+Built simulation executable D:/term 5/CA/lab/Computer-Architecture-Lab/7 - multipliers/array/array/TBArray_isim_beh.exe
+Fuse Memory Usage: 29980 KB
+Fuse CPU Usage: 265 ms

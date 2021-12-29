@@ -1,0 +1,4 @@
+vhdl work "HalfAdder.vhd"
+vhdl work "FullAdder.vhd"
+vhdl work "ArrayMultiplier.vhd"
+vhdl work "TBArray.vhd"

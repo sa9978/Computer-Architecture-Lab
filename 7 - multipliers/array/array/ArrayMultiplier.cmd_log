@@ -4,3 +4,8 @@ ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 "ArrayMult
 map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ArrayMultiplier_map.ncd ArrayMultiplier.ngd ArrayMultiplier.pcf 
 par -w -intstyle ise -ol high -mt off ArrayMultiplier_map.ncd ArrayMultiplier.ncd ArrayMultiplier.pcf 
 trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ArrayMultiplier.twx ArrayMultiplier.ncd -o ArrayMultiplier.twr ArrayMultiplier.pcf 
+xst -intstyle ise -ifn "D:/term 5/CA/lab/Computer-Architecture-Lab/7 - multipliers/array/array/ArrayMultiplier.xst" -ofn "D:/term 5/CA/lab/Computer-Architecture-Lab/7 - multipliers/array/array/ArrayMultiplier.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 "ArrayMultiplier.ngc" ArrayMultiplier.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ArrayMultiplier_map.ncd ArrayMultiplier.ngd ArrayMultiplier.pcf 
+par -w -intstyle ise -ol high -mt off ArrayMultiplier_map.ncd ArrayMultiplier.ncd ArrayMultiplier.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ArrayMultiplier.twx ArrayMultiplier.ncd -o ArrayMultiplier.twr ArrayMultiplier.pcf 
