@@ -1,0 +1,22 @@
+xst -intstyle ise -ifn "C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/11/scomp/scomp.xst" -ofn "C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/11/scomp/scomp.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 scomp.ngc scomp.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o scomp_map.ncd scomp.ngd scomp.pcf 
+par -w -intstyle ise -ol high -t 1 scomp_map.ncd scomp.ncd scomp.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml scomp.twx scomp.ncd -o scomp.twr scomp.pcf 
+netgen -intstyle ise -s 5  -pcf scomp.pcf -sdf_anno true -sdf_path "netgen/map" -insert_glbl true -w -dir netgen/map -ofmt verilog -sim scomp_map.ncd scomp_map.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc scomp.ucf -p xc3s50-pq208-5 scomp.ngc scomp.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o scomp_map.ncd scomp.ngd scomp.pcf 
+par -w -intstyle ise -ol high -t 1 scomp_map.ncd scomp.ncd scomp.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml scomp.twx scomp.ncd -o scomp.twr scomp.pcf -ucf scomp.ucf 
+ibiswriter -intstyle ise -truncate 20 scomp.ncd scomp.ibs 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/translate -ofmt verilog -sim scomp.ngd scomp_translate.v 
+xst -intstyle ise -ifn "C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/11/scomp/scomp.xst" -ofn "C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/11/scomp/scomp.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc scomp.ucf -p xc3s50-pq208-5 scomp.ngc scomp.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o scomp_map.ncd scomp.ngd scomp.pcf 
+par -w -intstyle ise -ol high -t 1 scomp_map.ncd scomp.ncd scomp.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml scomp.twx scomp.ncd -o scomp.twr scomp.pcf -ucf scomp.ucf 
+xst -intstyle ise -ifn "C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/11/scomp/scomp.xst" -ofn "C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/11/scomp/scomp.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc scomp.ucf -p xc3s50-pq208-5 scomp.ngc scomp.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o scomp_map.ncd scomp.ngd scomp.pcf 
+par -w -intstyle ise -ol high -t 1 scomp_map.ncd scomp.ncd scomp.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml scomp.twx scomp.ncd -o scomp.twr scomp.pcf -ucf scomp.ucf 

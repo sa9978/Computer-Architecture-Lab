@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/10/memory/single_port/single_port_RAM_visualTest.xst" -ofn "C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/10/memory/single_port/single_port_RAM_visualTest.syr" 
+xst -intstyle ise -ifn "C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/10/memory/single_port/single_port_RAM_visualTest.xst" -ofn "C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/10/memory/single_port/single_port_RAM_visualTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 single_port_RAM_visualTest.ngc single_port_RAM_visualTest.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o single_port_RAM_visualTest_map.ncd single_port_RAM_visualTest.ngd single_port_RAM_visualTest.pcf 
+par -w -intstyle ise -ol high -t 1 single_port_RAM_visualTest_map.ncd single_port_RAM_visualTest.ncd single_port_RAM_visualTest.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml single_port_RAM_visualTest.twx single_port_RAM_visualTest.ncd -o single_port_RAM_visualTest.twr single_port_RAM_visualTest.pcf 

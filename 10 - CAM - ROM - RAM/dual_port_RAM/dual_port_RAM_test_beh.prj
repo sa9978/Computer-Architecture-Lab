@@ -1,0 +1,3 @@
+vhdl work "dual_port_RAM.vhd"
+vhdl work "dual_port_RAM_visualTest.vhd"
+vhdl work "dual_port_RAM_test.vhd"

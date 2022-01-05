@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/10/memory/single_port/single_port_RAM_test_isim_beh.exe" -prj "C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/10/memory/single_port/single_port_RAM_test_beh.prj" "work.single_port_RAM_test" 

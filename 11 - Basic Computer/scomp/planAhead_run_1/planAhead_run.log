@@ -1,0 +1,179 @@
+
+****** PlanAhead v14.7 (64-bit)
+  **** Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/11/scomp/pa.fromNcd.tcl
+# create_project -name scomp -dir "C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/11/scomp/planAhead_run_1" -part xc3s50pq208-5
+# set srcset [get_property srcset [current_run -impl]]
+# set_property design_mode GateLvl $srcset
+# set_property edif_top_file "C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/11/scomp/scomp.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/11/scomp} }
+# set_property target_constrs_file "scomp.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/11/scomp/scomp.ucf' to fileset 'constrs_1'
+# add_files [list {scomp.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc3s50pq208-5
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design scomp.ngc ...
+WARNING:NetListWriters:298 - No output is written to scomp.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus Madd_program_counter_addsub0000_cy<5 :
+   2> on block scomp is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file scomp.edif ...
+ngc2edif: Total memory usage is 77788 kilobytes
+
+Parsing EDIF File [./planAhead_run_1/scomp.data/cache/scomp_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_1/scomp.data/cache/scomp_ngc_zx.edif]
+INFO: [Designutils 20-910] Reading macro library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3/hd_int_macros.edn
+Parsing EDIF File [C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3/hd_int_macros.edn]
+Finished Parsing EDIF File [C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3/hd_int_macros.edn]
+Loading clock regions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/xc3s50/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/xc3s50/ClockBuffers.xml
+Loading package from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/xc3s50/pq208/Package.xml
+Loading io standards from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/xc3s50/pq208/SSORules.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3/drc.xml
+INFO: [Timing 38-77] Reading timing library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/spartan3-5.lib.
+INFO: [Timing 38-34] Done reading timing library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/spartan3-5.lib.
+Parsing UCF File [C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/11/scomp/scomp.ucf]
+Finished Parsing UCF File [C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/11/scomp/scomp.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 5a93cb64
+link_design: Time (s): elapsed = 00:00:08 . Memory (MB): peak = 558.246 ; gain = 109.195
+# read_xdl -file "C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/11/scomp/scomp.ncd"
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+Release 14.7 - xdl P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+WARNING:XDL:213 - The resulting xdl output will not have LUT equation strings or RAM INIT strings.
+Loading device for application Rf_Device from file '3s50.nph' in environment C:\Xilinx\14.7\ISE_DS\ISE\.
+   "scomp" is an NCD, version 3.2, device xc3s50, package pq208, speed -5
+Successfully converted design 'C:\Users\LATITUDE\Documents\term5\computerArchitecture\Az.architecture\11\scomp\scomp.ncd' to 'C:\Users\LATITUDE\Documents\term5\computerArchitecture\Az.architecture\11\scomp\scomp.xdl'.
+INFO: [Designutils 20-669] Parsing Placement File : C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/11/scomp/scomp.ncd
+WARNING: [Designutils 20-660] Instance Madd_register_ac_addsub0000_lut<0> Found on Line 97 is not placed
+WARNING: [Designutils 20-660] Instance Madd_register_ac_addsub0000_lut<1> Found on Line 99 is not placed
+WARNING: [Designutils 20-660] Instance Madd_register_ac_addsub0000_cy<0> Found on Line 101 is not placed
+WARNING: [Designutils 20-660] Instance Madd_register_ac_addsub0000_cy<1> Found on Line 101 is not placed
+WARNING: [Designutils 20-660] Instance Madd_register_ac_addsub0000_xor<0> Found on Line 102 is not placed
+WARNING: [Designutils 20-660] Instance Madd_register_ac_addsub0000_xor<1> Found on Line 102 is not placed
+WARNING: [Designutils 20-660] Instance Madd_register_ac_addsub0000_lut<2> Found on Line 107 is not placed
+WARNING: [Designutils 20-660] Instance Madd_register_ac_addsub0000_lut<3> Found on Line 109 is not placed
+WARNING: [Designutils 20-660] Instance Madd_register_ac_addsub0000_cy<2> Found on Line 111 is not placed
+WARNING: [Designutils 20-660] Instance Madd_register_ac_addsub0000_cy<3> Found on Line 112 is not placed
+WARNING: [Designutils 20-660] Instance Madd_register_ac_addsub0000_xor<2> Found on Line 112 is not placed
+WARNING: [Designutils 20-660] Instance Madd_register_ac_addsub0000_xor<3> Found on Line 113 is not placed
+WARNING: [Designutils 20-660] Instance Madd_register_ac_addsub0000_lut<4> Found on Line 118 is not placed
+WARNING: [Designutils 20-660] Instance Madd_register_ac_addsub0000_lut<5> Found on Line 120 is not placed
+WARNING: [Designutils 20-660] Instance Madd_register_ac_addsub0000_cy<4> Found on Line 122 is not placed
+WARNING: [Designutils 20-660] Instance Madd_register_ac_addsub0000_cy<5> Found on Line 123 is not placed
+WARNING: [Designutils 20-660] Instance Madd_register_ac_addsub0000_xor<4> Found on Line 123 is not placed
+WARNING: [Designutils 20-660] Instance Madd_register_ac_addsub0000_xor<5> Found on Line 124 is not placed
+WARNING: [Designutils 20-660] Instance Madd_register_ac_addsub0000_lut<6> Found on Line 129 is not placed
+WARNING: [Designutils 20-660] Instance Madd_register_ac_addsub0000_lut<7> Found on Line 131 is not placed
+WARNING: [Designutils 20-660] Instance Madd_register_ac_addsub0000_cy<6> Found on Line 133 is not placed
+WARNING: [Designutils 20-660] Instance Madd_register_ac_addsub0000_cy<7> Found on Line 134 is not placed
+WARNING: [Designutils 20-660] Instance Madd_register_ac_addsub0000_xor<6> Found on Line 134 is not placed
+WARNING: [Designutils 20-660] Instance Madd_register_ac_addsub0000_xor<7> Found on Line 135 is not placed
+WARNING: [Designutils 20-660] Instance Madd_register_ac_addsub0000_lut<8> Found on Line 140 is not placed
+WARNING: [Designutils 20-660] Instance Madd_register_ac_addsub0000_lut<9> Found on Line 142 is not placed
+WARNING: [Designutils 20-660] Instance Madd_register_ac_addsub0000_cy<8> Found on Line 144 is not placed
+WARNING: [Designutils 20-660] Instance Madd_register_ac_addsub0000_cy<9> Found on Line 145 is not placed
+WARNING: [Designutils 20-660] Instance Madd_register_ac_addsub0000_xor<8> Found on Line 145 is not placed
+WARNING: [Designutils 20-660] Instance Madd_register_ac_addsub0000_xor<9> Found on Line 146 is not placed
+WARNING: [Designutils 20-660] Instance Madd_register_ac_addsub0000_lut<10> Found on Line 151 is not placed
+WARNING: [Designutils 20-660] Instance Madd_register_ac_addsub0000_lut<11> Found on Line 153 is not placed
+WARNING: [Designutils 20-660] Instance Madd_register_ac_addsub0000_cy<10> Found on Line 155 is not placed
+WARNING: [Designutils 20-660] Instance Madd_register_ac_addsub0000_cy<11> Found on Line 156 is not placed
+WARNING: [Designutils 20-660] Instance Madd_register_ac_addsub0000_xor<10> Found on Line 156 is not placed
+WARNING: [Designutils 20-660] Instance Madd_register_ac_addsub0000_xor<11> Found on Line 157 is not placed
+WARNING: [Designutils 20-660] Instance Madd_register_ac_addsub0000_lut<12> Found on Line 162 is not placed
+WARNING: [Designutils 20-660] Instance Madd_register_ac_addsub0000_lut<13> Found on Line 164 is not placed
+WARNING: [Designutils 20-660] Instance Madd_register_ac_addsub0000_cy<12> Found on Line 166 is not placed
+WARNING: [Designutils 20-660] Instance Madd_register_ac_addsub0000_cy<13> Found on Line 167 is not placed
+WARNING: [Designutils 20-660] Instance Madd_register_ac_addsub0000_xor<12> Found on Line 167 is not placed
+WARNING: [Designutils 20-660] Instance Madd_register_ac_addsub0000_xor<13> Found on Line 168 is not placed
+WARNING: [Designutils 20-660] Instance Madd_register_ac_addsub0000_lut<14> Found on Line 173 is not placed
+WARNING: [Designutils 20-660] Instance Madd_register_ac_addsub0000_lut<15> Found on Line 176 is not placed
+WARNING: [Designutils 20-660] Instance Madd_register_ac_addsub0000_cy<14> Found on Line 178 is not placed
+WARNING: [Designutils 20-660] Instance Madd_register_ac_addsub0000_xor<14> Found on Line 178 is not placed
+WARNING: [Designutils 20-660] Instance Madd_register_ac_addsub0000_xor<15> Found on Line 179 is not placed
+WARNING: [Designutils 20-660] Instance register_ac_out_1_OBUF Found on Line 193 is not placed
+WARNING: [Designutils 20-664] Net register_ac_out<1> Found on Line 193 is not placed
+WARNING: [Designutils 20-660] Instance memory_data_register_out_15_OBUF Found on Line 207 is not placed
+WARNING: [Designutils 20-664] Net memory_data_register_out<15> Found on Line 208 is not placed
+WARNING: [Designutils 20-660] Instance register_ac_out_2_OBUF Found on Line 222 is not placed
+INFO: [Common 17-14] Message 'Designutils 20-660' appears 50 times and further instances of the messages will be disabled. Use the Tcl command set_msg_limit to change the current settings.
+WARNING: [Designutils 20-664] Net register_ac_out<2> Found on Line 222 is not placed
+WARNING: [Designutils 20-664] Net register_ac_out<3> Found on Line 236 is not placed
+WARNING: [Designutils 20-664] Net register_ac_out<4> Found on Line 250 is not placed
+WARNING: [Designutils 20-664] Net register_ac_out<5> Found on Line 264 is not placed
+WARNING: [Designutils 20-664] Net register_ac_out<6> Found on Line 278 is not placed
+WARNING: [Designutils 20-664] Net register_ac_out<7> Found on Line 292 is not placed
+WARNING: [Designutils 20-664] Net register_ac_out<8> Found on Line 306 is not placed
+WARNING: [Designutils 20-664] Net register_ac_out<9> Found on Line 320 is not placed
+WARNING: [Designutils 20-664] Net register_ac_out<10> Found on Line 334 is not placed
+WARNING: [Designutils 20-664] Net register_ac_out<11> Found on Line 348 is not placed
+WARNING: [Designutils 20-664] Net register_ac_out<12> Found on Line 362 is not placed
+WARNING: [Designutils 20-664] Net register_ac_out<13> Found on Line 376 is not placed
+WARNING: [Designutils 20-664] Net register_ac_out<14> Found on Line 390 is not placed
+WARNING: [Designutils 20-664] Net register_ac_out<15> Found on Line 404 is not placed
+WARNING: [Designutils 20-664] Net program_counter_out<0> Found on Line 418 is not placed
+WARNING: [Designutils 20-664] Net program_counter_out<1> Found on Line 432 is not placed
+WARNING: [Designutils 20-664] Net program_counter_out<2> Found on Line 446 is not placed
+WARNING: [Designutils 20-664] Net program_counter_out<3> Found on Line 460 is not placed
+WARNING: [Designutils 20-664] Net program_counter_out<4> Found on Line 474 is not placed
+WARNING: [Designutils 20-664] Net program_counter_out<5> Found on Line 488 is not placed
+WARNING: [Designutils 20-664] Net program_counter_out<6> Found on Line 502 is not placed
+WARNING: [Designutils 20-664] Net program_counter_out<7> Found on Line 516 is not placed
+WARNING: [Designutils 20-664] Net memory_write_out Found on Line 530 is not placed
+WARNING: [Designutils 20-664] Net clock Found on Line 544 is not placed
+WARNING: [Designutils 20-664] Net memory_address_register_out<0> Found on Line 559 is not placed
+WARNING: [Designutils 20-664] Net memory_address_register_out<1> Found on Line 574 is not placed
+WARNING: [Designutils 20-664] Net memory_address_register_out<2> Found on Line 589 is not placed
+WARNING: [Designutils 20-664] Net reset Found on Line 603 is not placed
+WARNING: [Designutils 20-664] Net memory_data_register_out<0> Found on Line 618 is not placed
+WARNING: [Designutils 20-664] Net memory_address_register_out<3> Found on Line 633 is not placed
+WARNING: [Designutils 20-664] Net memory_data_register_out<1> Found on Line 648 is not placed
+WARNING: [Designutils 20-664] Net memory_address_register_out<4> Found on Line 663 is not placed
+WARNING: [Designutils 20-664] Net memory_data_register_out<2> Found on Line 678 is not placed
+WARNING: [Designutils 20-664] Net memory_address_register_out<5> Found on Line 693 is not placed
+WARNING: [Designutils 20-664] Net memory_data_register_out<3> Found on Line 708 is not placed
+WARNING: [Designutils 20-664] Net memory_address_register_out<6> Found on Line 723 is not placed
+WARNING: [Designutils 20-664] Net memory_data_register_out<4> Found on Line 738 is not placed
+WARNING: [Designutils 20-664] Net memory_address_register_out<7> Found on Line 753 is not placed
+WARNING: [Designutils 20-664] Net memory_data_register_out<5> Found on Line 768 is not placed
+WARNING: [Designutils 20-664] Net memory_data_register_out<6> Found on Line 783 is not placed
+WARNING: [Designutils 20-664] Net memory_data_register_out<7> Found on Line 798 is not placed
+WARNING: [Designutils 20-664] Net memory_data_register_out<10> Found on Line 813 is not placed
+WARNING: [Designutils 20-664] Net memory_data_register_out<8> Found on Line 828 is not placed
+WARNING: [Designutils 20-664] Net memory_data_register_out<11> Found on Line 843 is not placed
+WARNING: [Designutils 20-664] Net memory_data_register_out<9> Found on Line 858 is not placed
+WARNING: [Designutils 20-664] Net memory_data_register_out<12> Found on Line 873 is not placed
+WARNING: [Designutils 20-664] Net memory_data_register_out<13> Found on Line 888 is not placed
+WARNING: [Designutils 20-664] Net register_ac_out<0> Found on Line 902 is not placed
+INFO: [Common 17-14] Message 'Designutils 20-664' appears 50 times and further instances of the messages will be disabled. Use the Tcl command set_msg_limit to change the current settings.
+INFO: [Designutils 20-658] Finished Parsing Placement File : C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/11/scomp/scomp.ncd
+INFO: [Designutils 20-671] Placed 0 instances
+read_xdl: Time (s): elapsed = 00:00:06 . Memory (MB): peak = 572.520 ; gain = 14.273
+INFO: [Common 17-344] 'read_xdl' was cancelled
+INFO: [Common 17-344] 'source' was cancelled
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Fri Dec 31 17:19:30 2021...
+INFO: [Common 17-83] Releasing license: PlanAhead

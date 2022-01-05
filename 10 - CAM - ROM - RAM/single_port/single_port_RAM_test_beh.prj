@@ -1,0 +1,3 @@
+vhdl work "single_port_RAM.vhd"
+vhdl work "single_port_RAM_visualTest.vhd"
+vhdl work "single_port_RAM_test.vhd"

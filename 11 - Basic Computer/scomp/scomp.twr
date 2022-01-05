@@ -1,0 +1,125 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 5
+-n 3 -fastpaths -xml scomp.twx scomp.ncd -o scomp.twr scomp.pcf -ucf scomp.ucf
+
+Design file:              scomp.ncd
+Physical constraint file: scomp.pcf
+Device,package,speed:     xc3s50,pq208,-5 (PRODUCTION 1.39 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clock
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+reset       |    5.060(R)|   -0.165(R)|clock_BUFGP       |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock clock to Pad
+------------------------------+------------+------------------+--------+
+                              | clk (edge) |                  | Clock  |
+Destination                   |   to PAD   |Internal Clock(s) | Phase  |
+------------------------------+------------+------------------+--------+
+memory_address_register_out<0>|   11.190(R)|clock_BUFGP       |   0.000|
+memory_address_register_out<1>|   10.470(R)|clock_BUFGP       |   0.000|
+memory_address_register_out<2>|   10.670(R)|clock_BUFGP       |   0.000|
+memory_address_register_out<3>|   10.307(R)|clock_BUFGP       |   0.000|
+memory_address_register_out<4>|   11.026(R)|clock_BUFGP       |   0.000|
+memory_address_register_out<5>|   11.329(R)|clock_BUFGP       |   0.000|
+memory_address_register_out<6>|   11.860(R)|clock_BUFGP       |   0.000|
+memory_address_register_out<7>|   10.454(R)|clock_BUFGP       |   0.000|
+memory_data_register_out<0>   |    9.686(R)|clock_BUFGP       |   0.000|
+memory_data_register_out<1>   |    9.367(R)|clock_BUFGP       |   0.000|
+memory_data_register_out<2>   |    8.891(R)|clock_BUFGP       |   0.000|
+memory_data_register_out<3>   |    9.200(R)|clock_BUFGP       |   0.000|
+memory_data_register_out<4>   |    9.206(R)|clock_BUFGP       |   0.000|
+memory_data_register_out<5>   |    9.614(R)|clock_BUFGP       |   0.000|
+memory_data_register_out<6>   |   10.578(R)|clock_BUFGP       |   0.000|
+memory_data_register_out<7>   |   10.597(R)|clock_BUFGP       |   0.000|
+memory_data_register_out<8>   |   10.608(R)|clock_BUFGP       |   0.000|
+memory_data_register_out<9>   |   10.014(R)|clock_BUFGP       |   0.000|
+memory_data_register_out<10>  |   10.057(R)|clock_BUFGP       |   0.000|
+memory_data_register_out<11>  |   10.051(R)|clock_BUFGP       |   0.000|
+memory_data_register_out<12>  |    9.191(R)|clock_BUFGP       |   0.000|
+memory_data_register_out<13>  |   10.082(R)|clock_BUFGP       |   0.000|
+memory_data_register_out<14>  |   10.294(R)|clock_BUFGP       |   0.000|
+memory_data_register_out<15>  |   10.611(R)|clock_BUFGP       |   0.000|
+memory_write_out              |    8.607(R)|clock_BUFGP       |   0.000|
+program_counter_out<0>        |    8.054(R)|clock_BUFGP       |   0.000|
+program_counter_out<1>        |    8.112(R)|clock_BUFGP       |   0.000|
+program_counter_out<2>        |    7.129(R)|clock_BUFGP       |   0.000|
+program_counter_out<3>        |    7.816(R)|clock_BUFGP       |   0.000|
+program_counter_out<4>        |    7.845(R)|clock_BUFGP       |   0.000|
+program_counter_out<5>        |    8.235(R)|clock_BUFGP       |   0.000|
+program_counter_out<6>        |    7.745(R)|clock_BUFGP       |   0.000|
+program_counter_out<7>        |    7.768(R)|clock_BUFGP       |   0.000|
+register_ac_out<0>            |    8.224(R)|clock_BUFGP       |   0.000|
+register_ac_out<1>            |    7.709(R)|clock_BUFGP       |   0.000|
+register_ac_out<2>            |    8.236(R)|clock_BUFGP       |   0.000|
+register_ac_out<3>            |    8.446(R)|clock_BUFGP       |   0.000|
+register_ac_out<4>            |    8.403(R)|clock_BUFGP       |   0.000|
+register_ac_out<5>            |    7.724(R)|clock_BUFGP       |   0.000|
+register_ac_out<6>            |    8.508(R)|clock_BUFGP       |   0.000|
+register_ac_out<7>            |    7.709(R)|clock_BUFGP       |   0.000|
+register_ac_out<8>            |    8.451(R)|clock_BUFGP       |   0.000|
+register_ac_out<9>            |    8.091(R)|clock_BUFGP       |   0.000|
+register_ac_out<10>           |    8.122(R)|clock_BUFGP       |   0.000|
+register_ac_out<11>           |    8.690(R)|clock_BUFGP       |   0.000|
+register_ac_out<12>           |    8.113(R)|clock_BUFGP       |   0.000|
+register_ac_out<13>           |    8.099(R)|clock_BUFGP       |   0.000|
+register_ac_out<14>           |    8.436(R)|clock_BUFGP       |   0.000|
+register_ac_out<15>           |    8.118(R)|clock_BUFGP       |   0.000|
+------------------------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clock
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clock          |    7.029|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Fri Dec 31 17:36:28 2021 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 148 MB
+
+
+

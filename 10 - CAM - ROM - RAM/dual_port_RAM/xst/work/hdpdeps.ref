@@ -1,0 +1,18 @@
+V3 8
+FL C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/10/memory/dual_port_RAM/dual_port_RAM.vhd 2021/12/24.23:35:31 P.20131013
+EN work/dual_port_RAM 1640376383 \
+      FL C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/10/memory/dual_port_RAM/dual_port_RAM.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/dual_port_RAM/arch 1640376384 \
+      FL C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/10/memory/dual_port_RAM/dual_port_RAM.vhd \
+      EN work/dual_port_RAM 1640376383
+FL C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/10/memory/dual_port_RAM/dual_port_RAM_visualTest.vhd 2021/12/24.23:36:15 P.20131013
+AR work/dual_port_RAM_visualTest/Behavioral -1 \
+      FL C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/10/memory/dual_port_RAM/dual_port_RAM_visualTest.vhd \
+      EN work/dual_port_RAM_visualTest 1640376385
+EN work/dual_port_RAM_visualTest 1640376385 \
+      FL C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/10/memory/dual_port_RAM/dual_port_RAM_visualTest.vhd \
+      PB ieee/NUMERIC_STD 1381692181 PB ieee/std_logic_1164 1381692176
+AR work/dual_port_RAM_visualTest/arch 1640376386 \
+      FL C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/10/memory/dual_port_RAM/dual_port_RAM_visualTest.vhd \
+      EN work/dual_port_RAM_visualTest 1640376385 CP work/dual_port_RAM

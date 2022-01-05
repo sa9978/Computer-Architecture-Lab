@@ -1,0 +1,452 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Reading design: scomp.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "scomp.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "scomp"
+Output Format                      : NGC
+Target Device                      : xc3s50-5-pq208
+
+---- Source Options
+Top Module Name                    : scomp
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/11/scomp/scomp.vhd" in Library work.
+Architecture rtl of Entity scomp is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <scomp> in library <work> (architecture <rtl>) with generics.
+	address_width = 8
+	data_width = 16
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing generic Entity <scomp> in library <work> (Architecture <rtl>).
+	address_width = 8
+	data_width = 16
+WARNING:Xst:37 - Detected unknown constraint/property "ram_init_file". This constraint/property is not supported by the current software release and will be ignored.
+Entity <scomp> analyzed. Unit <scomp> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <scomp>.
+    Related source file is "C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/11/scomp/scomp.vhd".
+    Found 256x16-bit single-port RAM <Mram_ram_block> for signal <ram_block>.
+    Found finite state machine <FSM_0> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 10                                             |
+    | Transitions        | 15                                             |
+    | Inputs             | 5                                              |
+    | Outputs            | 10                                             |
+    | Clock              | clock                     (rising_edge)        |
+    | Reset              | reset                     (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | reset_pc                                       |
+    | Power Up State     | reset_pc                                       |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 16-bit register for signal <instruction_register>.
+    Found 16-bit register for signal <memory_data_register>.
+    Found 8-bit register for signal <program_counter>.
+    Found 8-bit adder for signal <program_counter$addsub0000> created at line 61.
+    Found 16-bit comparator less for signal <program_counter$cmp_lt0000> created at line 102.
+    Found 16-bit register for signal <register_ac>.
+    Found 16-bit adder for signal <register_ac$addsub0000> created at line 81.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   1 RAM(s).
+	inferred  56 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+	inferred   1 Comparator(s).
+Unit <scomp> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 256x16-bit single-port RAM                            : 1
+# Adders/Subtractors                                   : 2
+ 16-bit adder                                          : 1
+ 8-bit adder                                           : 1
+# Registers                                            : 4
+ 16-bit register                                       : 3
+ 8-bit register                                        : 1
+# Comparators                                          : 1
+ 16-bit comparator less                                : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <state/FSM> on signal <state[1:10]> with one-hot encoding.
+------------------------------
+ State          | Encoding
+------------------------------
+ reset_pc       | 0000000001
+ fetch          | 0000000100
+ decode         | 0000000010
+ execute_add    | 0000001000
+ execute_load   | 0000100000
+ execute_jneg   | 0010000000
+ execute_jneg2  | 1000000000
+ execute_store  | 0000010000
+ execute_store2 | 0100000000
+ execute_jump   | 0001000000
+------------------------------
+
+Synthesizing (advanced) Unit <scomp>.
+INFO:Xst:3226 - The RAM <Mram_ram_block> will be implemented as a BLOCK RAM, absorbing the following register(s): <memory_data_register>
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 16-bit                   |          |
+    |     mode           | read-first                          |          |
+    |     clkA           | connected to signal <clock>         | rise     |
+    |     weA            | connected to signal <memory_write_out> | high     |
+    |     addrA          | connected to signal <memory_address_register_out> |          |
+    |     diA            | connected to signal <register_ac_out> |          |
+    |     doA            | connected to signal <memory_data_register_out> |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+Unit <scomp> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# RAMs                                                 : 1
+ 256x16-bit single-port block RAM                      : 1
+# Adders/Subtractors                                   : 2
+ 16-bit adder                                          : 1
+ 8-bit adder                                           : 1
+# Registers                                            : 40
+ Flip-Flops                                            : 40
+# Comparators                                          : 1
+ 16-bit comparator less                                : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <scomp> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block scomp, actual ratio is 7.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 50
+ Flip-Flops                                            : 50
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : scomp.ngr
+Top Level Output File Name         : scomp
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 51
+
+Cell Usage :
+# BELS                             : 137
+#      GND                         : 2
+#      INV                         : 1
+#      LUT2                        : 17
+#      LUT2_L                      : 2
+#      LUT3                        : 26
+#      LUT3_D                      : 4
+#      LUT3_L                      : 3
+#      LUT4                        : 27
+#      LUT4_D                      : 2
+#      LUT4_L                      : 20
+#      MUXCY                       : 15
+#      MUXF5                       : 1
+#      VCC                         : 1
+#      XORCY                       : 16
+# FlipFlops/Latches                : 50
+#      FDC                         : 9
+#      FDE                         : 40
+#      FDP                         : 1
+# RAMS                             : 1
+#      RAMB16                      : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 50
+#      IBUF                        : 1
+#      OBUF                        : 49
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s50pq208-5 
+
+ Number of Slices:                       55  out of    768     7%  
+ Number of Slice Flip Flops:             50  out of   1536     3%  
+ Number of 4 input LUTs:                102  out of   1536     6%  
+ Number of IOs:                          51
+ Number of bonded IOBs:                  51  out of    124    41%  
+ Number of BRAMs:                         1  out of      4    25%  
+ Number of GCLKs:                         1  out of      8    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clock                              | BUFGP                  | 51    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+reset                              | IBUF                   | 10    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 6.009ns (Maximum Frequency: 166.421MHz)
+   Minimum input arrival time before clock: 4.196ns
+   Maximum output required time after clock: 10.614ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock'
+  Clock period: 6.009ns (frequency: 166.421MHz)
+  Total number of paths / destination ports: 675 / 73
+-------------------------------------------------------------------------
+Delay:               6.009ns (Levels of Logic = 4)
+  Source:            state_FSM_FFd7 (FF)
+  Destination:       Mram_ram_block/Mram_ram_block (RAM)
+  Source Clock:      clock rising
+  Destination Clock: clock rising
+
+  Data Path: state_FSM_FFd7 to Mram_ram_block/Mram_ram_block
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             18   0.626   1.263  state_FSM_FFd7 (state_FSM_FFd7)
+     LUT3:I2->O            1   0.479   0.704  memory_address_register<0>1_SW0 (N41)
+     LUT4_D:I3->O          7   0.479   0.929  memory_address_register<0>1 (N01)
+     LUT4:I3->O            2   0.479   0.745  memory_address_register<6>1 (memory_address_register_out_6_OBUF)
+     begin scope: 'Mram_ram_block'
+     RAMB16:ADDRA10            0.304          Mram_ram_block
+    ----------------------------------------
+    Total                      6.009ns (2.367ns logic, 3.642ns route)
+                                       (39.4% logic, 60.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clock'
+  Total number of paths / destination ports: 40 / 40
+-------------------------------------------------------------------------
+Offset:              4.196ns (Levels of Logic = 2)
+  Source:            reset (PAD)
+  Destination:       register_ac_0 (FF)
+  Destination Clock: clock rising
+
+  Data Path: reset to register_ac_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            12   0.715   0.950  reset_IBUF (reset_IBUF)
+     INV:I->O             24   0.479   1.527  reset_inv1_INV_0 (reset_inv)
+     FDE:CE                    0.524          register_ac_0
+    ----------------------------------------
+    Total                      4.196ns (1.718ns logic, 2.478ns route)
+                                       (40.9% logic, 59.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clock'
+  Total number of paths / destination ports: 113 / 33
+-------------------------------------------------------------------------
+Offset:              10.614ns (Levels of Logic = 4)
+  Source:            state_FSM_FFd7 (FF)
+  Destination:       memory_address_register_out<6> (PAD)
+  Source Clock:      clock rising
+
+  Data Path: state_FSM_FFd7 to memory_address_register_out<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             18   0.626   1.263  state_FSM_FFd7 (state_FSM_FFd7)
+     LUT3:I2->O            1   0.479   0.704  memory_address_register<0>1_SW0 (N41)
+     LUT4_D:I3->O          7   0.479   0.929  memory_address_register<0>1 (N01)
+     LUT4:I3->O            2   0.479   0.745  memory_address_register<6>1 (memory_address_register_out_6_OBUF)
+     OBUF:I->O                 4.909          memory_address_register_out_6_OBUF (memory_address_register_out<6>)
+    ----------------------------------------
+    Total                     10.614ns (6.972ns logic, 3.642ns route)
+                                       (65.7% logic, 34.3% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 11.00 secs
+Total CPU time to Xst completion: 11.10 secs
+ 
+--> 
+
+Total memory usage is 247872 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

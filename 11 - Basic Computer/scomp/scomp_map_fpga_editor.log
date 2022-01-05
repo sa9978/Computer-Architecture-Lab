@@ -1,0 +1,17 @@
+#:C0     
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 P.20131013
+#Current Working Directory:
+#:D   C:\Users\LATITUDE\Documents\term5\computerArchitecture\Az.architecture\11\scomp
+#Date/Time:
+#:T   Fri Dec 31 17:16:40 2021
+#------------------------------
+	#Reading scomp_map.ncd...
+	#Loading device for application Rf_Device from file '3s50.nph' in environment C:\Xilinx\14.7\ISE_DS\ISE\.
+	#   "scomp" is an NCD, version 3.2, device xc3s50, package pq208, speed -5
+	#Design creation date: 2021.12.31.13.31.41
+	#Building chip graphics...
+	#Loading speed info...
+	#1
+setattr main edit-mode no-logic-changes

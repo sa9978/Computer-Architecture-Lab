@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/10/memory/ROM/ROM_test_isim_beh.exe" -prj "C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/10/memory/ROM/ROM_test_beh.prj" "work.ROM_test" 

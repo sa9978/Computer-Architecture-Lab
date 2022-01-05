@@ -1,0 +1,15 @@
+V3 7
+FL C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/10/memory/single_port/single_port_RAM.vhd 2021/12/24.22:45:31 P.20131013
+EN work/single_port_RAM 1640373417 \
+      FL C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/10/memory/single_port/single_port_RAM.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/single_port_RAM/arch 1640373418 \
+      FL C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/10/memory/single_port/single_port_RAM.vhd \
+      EN work/single_port_RAM 1640373417
+FL C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/10/memory/single_port/single_port_RAM_visualTest.vhd 2021/12/24.22:46:52 P.20131013
+EN work/single_port_RAM_visualTest 1640373419 \
+      FL C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/10/memory/single_port/single_port_RAM_visualTest.vhd \
+      PB ieee/NUMERIC_STD 1381692181 PB ieee/std_logic_1164 1381692176
+AR work/single_port_RAM_visualTest/arch 1640373420 \
+      FL C:/Users/LATITUDE/Documents/term5/computerArchitecture/Az.architecture/10/memory/single_port/single_port_RAM_visualTest.vhd \
+      EN work/single_port_RAM_visualTest 1640373419 CP work/single_port_RAM

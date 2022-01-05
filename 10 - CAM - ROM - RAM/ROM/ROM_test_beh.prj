@@ -1,0 +1,3 @@
+vhdl work "ROM_sevenSegment.vhd"
+vhdl work "ROM_sevenSegment_visualTest.vhd"
+vhdl work "ROM_test.vhd"
